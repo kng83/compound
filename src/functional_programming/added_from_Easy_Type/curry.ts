@@ -43,7 +43,7 @@ export function n_curry(fn:any) {
 }
 
 
-export function curry<T extends any,R>(fn: (...args: T[]) => R, ...args:T[]): VariadicCurry<T, R>{
+export function curry<T extends any[],R>(fn: (...args: T) => R, ...args:T): VariadicCurry<T, R>{
     let a = n_curry(fn);
     return (a as any)(...args) as  VariadicCurry<T, R>;
 }
