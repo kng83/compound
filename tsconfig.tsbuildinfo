@@ -149,31 +149,79 @@
         "version": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255",
         "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
       },
-      "./src/functional_programming/apply_functions.ts": {
-        "version": "03c54c4ee9f43615d862da1ea2256f363cf5b0f48cb694304a0d5cf84e7ffe16",
-        "signature": "44b03d39e69ee2cad4d961b12e1a1c07c0ed56de9884ee56eb2a2397860aae3f"
+      "./src/functional_programming/added_from_easy_type/curry.ts": {
+        "version": "988e9719ef3d32af03758f559f80adb6aefde9d5960a25d9c5493f8d16e994ea",
+        "signature": "8326c5a92fd480473d359267091f487717acc67ecc2a461fe82c67e18be6249f"
+      },
+      "./src/functional_programming/added_from_easy_type/test_curry.ts": {
+        "version": "0c8b3791e30131f94cf142b8e984221f470eefc094ed86ffb6fba0ab165fcb8e",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/index.ts": {
-        "version": "2c0a2ec0b5a0e8d35239c3d9b2c06cfea8f26de1d5bca3025850f053565c7128",
-        "signature": "18cf1dd831b7bbd072f96467685779a3055ba9b001403867ab9444f6bfc945c9"
+        "version": "565d244fba249d7a0fcd1ffcaf81dec0d5ffdaf4bbe8dc488cd511c024ecd5c0",
+        "signature": "61021b36a606af87ff7e2305ab058ad1313dfcd17a390af49412cc73a18661d5"
       },
       "./src/decorators/decorators.ts": {
         "version": "6e96dc3e76d86a09f1fc94b3510aa9a338582af7c14f42026b0ed67557e9f2fa",
         "signature": "01012a1d45b762773d7966ce715d0b041b66db3ed53f7ac12570e8eb3f6ed4ed"
       },
-      "./src/functional_programming/container.ts": {
+      "./src/functional_programming/added_from_easy_type/common.ts": {
+        "version": "fe566e665fce3ff853475f0a0166f03df8be6c2e45385237373c6b3d3335c00f",
+        "signature": "81ae070fcb8165056c033b0656062ae201611c3bc291619409035b6f987a3124"
+      },
+      "./src/functional_programming/added_from_easy_type/container.ts": {
+        "version": "6feb609ef7c727e32b0ea66fc0e863c913c507d4f41f1c61c3057819e9ee6927",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_from_easy_type/either.ts": {
+        "version": "3e47c3d2d57aee1869b6008bbcc28eded9b3bc873a043afc095796b5f038cafd",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_from_easy_type/functors.ts": {
+        "version": "a81981cf117af3f652123c703526509efaedd9eb24169eb291d99e5fe35eac13",
+        "signature": "e415f2673cd1a8083d68e8e52638b3912838aa606463dbbb53c44515ea5b5d7e"
+      },
+      "./src/functional_programming/added_from_easy_type/io.ts": {
+        "version": "a0a9313871b001f4f9f62a90a63d7aa8ed5464f85eba26ae5f5e6975a793a150",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_from_easy_type/maybe.ts": {
+        "version": "506863f4ef36ef18db505b1a414f6bba5ae286c18ad071c83ef39415fb7ed0fe",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_from_easy_type/maybe2.ts": {
+        "version": "8eac7ce2ffd5ca8df943233277149a6d03ad3a4de5c4cc2ea171e94a59fc1d28",
+        "signature": "1297e7bc7d401f2dd72c8cb3d4acda5ac4224ed1e480b8d4f21dbf100a09c97a"
+      },
+      "./src/functional_programming/added_from_easy_type/maybe3.ts": {
+        "version": "96a875e8b9b443856051eb6d1cd826dd764f86810084f46626e914df929b55bd",
+        "signature": "904b054d11c49708412738f7a5ff277679ae9c65b1ac7b0fbabf74d0b12395fc"
+      },
+      "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts": {
+        "version": "f72151cbf75db0470a16ace5cc71463928d7fb6df6c98ebd0fe5a37683eaf172",
+        "signature": "13e391ecaa30134862796d87deddb566994e006b843136090d79263d82407305"
+      },
+      "./src/functional_programming/added_from_easy_type/task.ts": {
+        "version": "6d952f1a28b20562dd3b5d660a4b7ff6d18a626047c5a5504458350c8c9a8b11",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_in_12_2019/apply_functions.ts": {
+        "version": "5f18569fbb5d3fd4aac30357476c35c50b514888b969e27718ec666edb08c3b3",
+        "signature": "44b03d39e69ee2cad4d961b12e1a1c07c0ed56de9884ee56eb2a2397860aae3f"
+      },
+      "./src/functional_programming/added_in_12_2019/container.ts": {
         "version": "0845c42d21982fc8ea47f2693435b2b0b63260ba37ba41d289326a6f40b2c2c8",
         "signature": "68fa2f8017a4f1e14eb9b6bcf5f5080efb98e773c0404d395252f97b89c2d0a2"
       },
-      "./src/functional_programming/either.ts": {
+      "./src/functional_programming/added_in_12_2019/either.ts": {
         "version": "ca117e1b4e8e559392a2fe8f71cba104e5a7316b28e22999de8bad408ce77182",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
-      "./src/functional_programming/maybe.ts": {
+      "./src/functional_programming/added_in_12_2019/maybe.ts": {
         "version": "b2496a2f444a74dba58300db85bae2ef6672dc0def9f3f1534f7d541c8c58287",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
-      "./src/functional_programming/monad.ts": {
+      "./src/functional_programming/added_in_12_2019/monad.ts": {
         "version": "cfd6991309f901ac1a0890b43dc855f9cb211572e52b502241a67af17061d307",
         "signature": "ad0f05b5f3a4baa7775ca64c3a46463fbf9bb41be470b0b8e97b11ff045babf4"
       },
@@ -269,30 +317,6 @@
         "version": "12c3b739b5c4a0f62e01faa95ddf7bfb91e93feffb99b1e3f41ad9a1bfcc45a3",
         "signature": "28c6e5dceed0408a5ae66918b76953ed93b08a14eaf40ab9ca37a82cf4c62b32"
       },
-      "./node_modules/@types/jquery/jquerystatic.d.ts": {
-        "version": "84c8e0dfd0d885abd37c1d213ef0b949dd8ef795291e7e7b1baadbbe4bc0f8a9",
-        "signature": "84c8e0dfd0d885abd37c1d213ef0b949dd8ef795291e7e7b1baadbbe4bc0f8a9"
-      },
-      "./node_modules/@types/jquery/jquery.d.ts": {
-        "version": "9d21da8939908dafa89d693c3e22aabeef28c075b68bb863257e631deef520f5",
-        "signature": "9d21da8939908dafa89d693c3e22aabeef28c075b68bb863257e631deef520f5"
-      },
-      "./node_modules/@types/jquery/misc.d.ts": {
-        "version": "5261e21f183c6c1c3b65784cdab8c2a912b6f4cd5f8044a1421466a8c894f832",
-        "signature": "5261e21f183c6c1c3b65784cdab8c2a912b6f4cd5f8044a1421466a8c894f832"
-      },
-      "./node_modules/@types/jquery/legacy.d.ts": {
-        "version": "8c4a3355af2c490a8af67c4ec304e970424a15ef648a3c3fbb3ee6634461e2cc",
-        "signature": "8c4a3355af2c490a8af67c4ec304e970424a15ef648a3c3fbb3ee6634461e2cc"
-      },
-      "./node_modules/@types/sizzle/index.d.ts": {
-        "version": "7ddac8a4ba398441cfd6d8a69380401378f122ee8cc2d848e6e32f4db2b6c876",
-        "signature": "7ddac8a4ba398441cfd6d8a69380401378f122ee8cc2d848e6e32f4db2b6c876"
-      },
-      "./node_modules/@types/jquery/index.d.ts": {
-        "version": "6739393f79c9a48ec82c6faa0d6b25d556daf3b6871fc4e5131f5445a13e7d15",
-        "signature": "6739393f79c9a48ec82c6faa0d6b25d556daf3b6871fc4e5131f5445a13e7d15"
-      },
       "./src/patterns/behavioral_patterns/state_pattern.ts": {
         "version": "cf7a97932a49cdc0989f5e5074403ef08a32304c032faea3d7c14fbfb89de94b",
         "signature": "783e48b4f7b5328d6201c985dd5c0d440f4763f18eb35e00bb16e192434380d6"
@@ -300,6 +324,70 @@
       "./src/patterns/behavioral_patterns/strategy_pattern.ts": {
         "version": "7a13f039417ae72b6a2a1aed808be28414057d1d78d6a16b69e8b37943a339b7",
         "signature": "f46202da047b1036e056076e7ef44bbf2a55b1a68f3b106b6db018acda095412"
+      },
+      "./src/patterns/behavioral_patterns/template_pattern.ts": {
+        "version": "ae7aa22b398fb8518212422e3232cfee0858ce1b70c3fb2282585b1f5cc729dd",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/patterns/behavioral_patterns/visitor_pattern.ts": {
+        "version": "b5eab2b043bd55e3067ca9da0f29a4b7ef6b704e6d03e9bdc5b057f7944d67fa",
+        "signature": "fc5d7c26b9cb059182c6a0ae3aa03824d055c173f21cb80dd584acb042c8667e"
+      },
+      "./src/patterns/creation_patterns/abstract_factory_pattern.ts": {
+        "version": "9990aaaf23054d9bda619b62fa3ca7fb44b0a518e30cc1e930665486f7eb69ab",
+        "signature": "efc72412420174db52c7d2c9f64444536ead0049e0899be237930478387173ee"
+      },
+      "./src/patterns/creation_patterns/builder_pattern.ts": {
+        "version": "7326ce53d77e3df7843dfc7c59c316b59f689a8b81d8e1ca936a05eee6e08e20",
+        "signature": "bbd875dea76abe8c76de545a735a98cccb78af468aaf472a640e51f127e2a444"
+      },
+      "./src/patterns/creation_patterns/factory_pattern.ts": {
+        "version": "09413b0ee3b81225bd46a281d6243044e780148a77bbbdf3ee88e07f885755ea",
+        "signature": "2429aa512f4ef7616b4e8b929e9ce4d9531212339bfb376861afcc75d8a6949d"
+      },
+      "./src/patterns/creation_patterns/prototype_pattern.ts": {
+        "version": "ef988dfa4c2493845e91a6cb5e89e0d9fe8c066f1099dd3d8154697b662e234a",
+        "signature": "b2b0b03412b192e9c40f5ee23d54f4c96d8be3681243ec6a51241ed5aae2a691"
+      },
+      "./src/patterns/creation_patterns/singleton_pattern.ts": {
+        "version": "5e21a756dd954a0b16a440a4eea091f66001fea9c934d3762ab5556f676ea78e",
+        "signature": "21b116edfd1e1b7c0a282f1d3f86a4caa2460dc90d69a7470490fe3419537510"
+      },
+      "./src/patterns/my_patterns/look_pattern.ts": {
+        "version": "1bdb786d82ba73872fba1b190c5638e7a518a48c14af8de5590e8053a11953c1",
+        "signature": "d176f17c83eaa33a5d589a5b5faaf201e6b9a50a873c1a2c8d255a2f3a14fbfc"
+      },
+      "./src/patterns/my_patterns/message_pattern.ts": {
+        "version": "14f0c0312d744eddd5e3f5f201e5fd77386f2cdcb415adba707a90ffa5812bf4",
+        "signature": "0e3759bc92af615f6db431d1cd24df537201f995dc39fe0d96ccd9b7f24082e4"
+      },
+      "./src/patterns/structural_patterns/adapter_pattern.ts": {
+        "version": "862f4834bab296b19580e24c8283eb23f0308a38face4fd25263e098cae762c5",
+        "signature": "4ca0ebd5233743a0914709083df4cfce83ad5b4b741b6179e354af232efdbc19"
+      },
+      "./src/patterns/structural_patterns/bridge_pattern.ts": {
+        "version": "1aa2c0ae34abd467c2d7a1141fd59634c7b53fbf663b4051afbf01c30dedd5d2",
+        "signature": "2c9e84c566e83ff05e1ec49c72af724c5b861fe2b3e79cbbb9aa53328c3476ca"
+      },
+      "./src/patterns/structural_patterns/composite_pattern.ts": {
+        "version": "7674c332034c6181550dee78ad718b1a8610866302c8d0d3caa30ec171c0a65e",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/patterns/structural_patterns/decorator_pattern.ts": {
+        "version": "a6e7217576ca76aa57a15fc3c8c8efc0a495695c0e4828698d01e9a001a22cd5",
+        "signature": "52e50a2a4f3550eba257c4da81cc5a39bac7f9d3e17b40afc8f7b977369f1bb2"
+      },
+      "./src/patterns/structural_patterns/facade_pattern.ts": {
+        "version": "d68ef1f17d7a0d58e6ff5c1929580e16349b3c74a48bba38b4c245acfc57866f",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/patterns/structural_patterns/flyweight_pattern.ts": {
+        "version": "3508b67ba6f677252171dc3828457dc50db5a6a8489ada340b27465db43f6db3",
+        "signature": "2e43791dc089a5589d9e8f8583a8c213f1897089c591dec6b1a8198395fba56a"
+      },
+      "./src/patterns/structural_patterns/proxy_pattern.ts": {
+        "version": "d1e037c35a191e34c89754c62634fce5165a34ff33fb714280196ef894212814",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "./node_modules/@types/node/globals.d.ts": {
         "version": "6cf62fbc792aa81fa62f99dab5cc692c5315ecd5da09dd35f1ccc82778c4d5bc",
@@ -330,8 +418,8 @@
         "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
       },
       "./node_modules/@types/node/constants.d.ts": {
-        "version": "1337655766a91689bd506cf3c8bfc89fcb7ceb7ba3b24ac9882a4f56ab58e9ec",
-        "signature": "1337655766a91689bd506cf3c8bfc89fcb7ceb7ba3b24ac9882a4f56ab58e9ec"
+        "version": "0279383034fae92db8097d0a41350293553599cc9c3c917b60e2542d0dfcbd44",
+        "signature": "0279383034fae92db8097d0a41350293553599cc9c3c917b60e2542d0dfcbd44"
       },
       "./node_modules/@types/node/crypto.d.ts": {
         "version": "43f461871cd5ae52073e97d3c2e5869ebd955c42d30a51d3eb3a6c2cd16b80c4",
@@ -382,8 +470,8 @@
         "signature": "358398fe4034395d85c87c319cca7a04001434b13dc68d067481ecb374385bfc"
       },
       "./node_modules/@types/node/os.d.ts": {
-        "version": "37307ad10f30884fb9470a4e170b7be5f68a33b3d458cc3b7c63cd494802e594",
-        "signature": "37307ad10f30884fb9470a4e170b7be5f68a33b3d458cc3b7c63cd494802e594"
+        "version": "d9bc6f1917c24d862a68d2633e4a32fd586bfe3e412e5d11fd07d8266b94ced5",
+        "signature": "d9bc6f1917c24d862a68d2633e4a32fd586bfe3e412e5d11fd07d8266b94ced5"
       },
       "./node_modules/@types/node/path.d.ts": {
         "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
@@ -414,8 +502,8 @@
         "signature": "30b9c2c0949e27506c7e751bd51749ca5ecb0d0a3ea854064039ffaa3707fad4"
       },
       "./node_modules/@types/node/stream.d.ts": {
-        "version": "73a55ad91626031c206e696547ca8065ab6b7d4888306f3ac883862f38774379",
-        "signature": "73a55ad91626031c206e696547ca8065ab6b7d4888306f3ac883862f38774379"
+        "version": "87a856ce45263344ebf69270ea1b0fc4eb13236a6194300bd5e99d1f022b0c6e",
+        "signature": "87a856ce45263344ebf69270ea1b0fc4eb13236a6194300bd5e99d1f022b0c6e"
       },
       "./node_modules/@types/node/string_decoder.d.ts": {
         "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
@@ -438,8 +526,8 @@
         "signature": "df905913ad47e24b6cb41d33f0c1f500bf9c4befe4325413a7644c9eb1e7965c"
       },
       "./node_modules/@types/node/url.d.ts": {
-        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
-        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+        "version": "ae25aec5ed3795a3edfc356a7bc091554917ad0e0009a3cdffd7115ba22bd28d",
+        "signature": "ae25aec5ed3795a3edfc356a7bc091554917ad0e0009a3cdffd7115ba22bd28d"
       },
       "./node_modules/@types/node/util.d.ts": {
         "version": "bf237fb2ca1ac62fde63e5f8178a9030e4d6b11987744007272f03a9deec6f76",
@@ -480,90 +568,6 @@
       "./node_modules/@types/node/ts3.2/index.d.ts": {
         "version": "7c7dabe6de2f88a1b4a4d9a15479c2a99b6f5864b434b9d960fc312ba9498c0a",
         "signature": "7c7dabe6de2f88a1b4a4d9a15479c2a99b6f5864b434b9d960fc312ba9498c0a"
-      },
-      "./node_modules/@types/caseless/index.d.ts": {
-        "version": "5343f3c160282dfbaab9af350119a0c3b59b7076ef0117bb5995a66e240dab28",
-        "signature": "5343f3c160282dfbaab9af350119a0c3b59b7076ef0117bb5995a66e240dab28"
-      },
-      "./node_modules/form-data/index.d.ts": {
-        "version": "e91ad231af87f864b3f07cd0e39b1cf6c133988156f087c1c3ccb0a5491c9115",
-        "signature": "e91ad231af87f864b3f07cd0e39b1cf6c133988156f087c1c3ccb0a5491c9115"
-      },
-      "./node_modules/@types/tough-cookie/index.d.ts": {
-        "version": "8437256e19bbeda3c9e062d18971002545c486b1f40e3cfa10199c89808264b7",
-        "signature": "8437256e19bbeda3c9e062d18971002545c486b1f40e3cfa10199c89808264b7"
-      },
-      "./node_modules/@types/request/index.d.ts": {
-        "version": "5f6ae89a8217fcfc4c313cf99353ab148f0e469026d75cb2319e6b14ee12b63e",
-        "signature": "5f6ae89a8217fcfc4c313cf99353ab148f0e469026d75cb2319e6b14ee12b63e"
-      },
-      "./src/patterns/behavioral_patterns/template_pattern.ts": {
-        "version": "ae7aa22b398fb8518212422e3232cfee0858ce1b70c3fb2282585b1f5cc729dd",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "./src/patterns/behavioral_patterns/visitor_pattern.ts": {
-        "version": "b5eab2b043bd55e3067ca9da0f29a4b7ef6b704e6d03e9bdc5b057f7944d67fa",
-        "signature": "fc5d7c26b9cb059182c6a0ae3aa03824d055c173f21cb80dd584acb042c8667e"
-      },
-      "./src/patterns/creation_patterns/abstract_factory_pattern.ts": {
-        "version": "9990aaaf23054d9bda619b62fa3ca7fb44b0a518e30cc1e930665486f7eb69ab",
-        "signature": "efc72412420174db52c7d2c9f64444536ead0049e0899be237930478387173ee"
-      },
-      "./src/patterns/creation_patterns/builder_pattern.ts": {
-        "version": "7326ce53d77e3df7843dfc7c59c316b59f689a8b81d8e1ca936a05eee6e08e20",
-        "signature": "bbd875dea76abe8c76de545a735a98cccb78af468aaf472a640e51f127e2a444"
-      },
-      "./src/patterns/creation_patterns/factory_pattern.ts": {
-        "version": "09413b0ee3b81225bd46a281d6243044e780148a77bbbdf3ee88e07f885755ea",
-        "signature": "2429aa512f4ef7616b4e8b929e9ce4d9531212339bfb376861afcc75d8a6949d"
-      },
-      "./src/patterns/creation_patterns/prototype_pattern.ts": {
-        "version": "ef988dfa4c2493845e91a6cb5e89e0d9fe8c066f1099dd3d8154697b662e234a",
-        "signature": "b2b0b03412b192e9c40f5ee23d54f4c96d8be3681243ec6a51241ed5aae2a691"
-      },
-      "./src/patterns/creation_patterns/singleton_pattern.ts": {
-        "version": "5e21a756dd954a0b16a440a4eea091f66001fea9c934d3762ab5556f676ea78e",
-        "signature": "21b116edfd1e1b7c0a282f1d3f86a4caa2460dc90d69a7470490fe3419537510"
-      },
-      "./src/patterns/my_patterns/message_pattern.ts": {
-        "version": "14f0c0312d744eddd5e3f5f201e5fd77386f2cdcb415adba707a90ffa5812bf4",
-        "signature": "0e3759bc92af615f6db431d1cd24df537201f995dc39fe0d96ccd9b7f24082e4"
-      },
-      "./src/patterns/structural_patterns/adapter_pattern.ts": {
-        "version": "862f4834bab296b19580e24c8283eb23f0308a38face4fd25263e098cae762c5",
-        "signature": "4ca0ebd5233743a0914709083df4cfce83ad5b4b741b6179e354af232efdbc19"
-      },
-      "./src/patterns/structural_patterns/bridge_pattern.ts": {
-        "version": "1aa2c0ae34abd467c2d7a1141fd59634c7b53fbf663b4051afbf01c30dedd5d2",
-        "signature": "2c9e84c566e83ff05e1ec49c72af724c5b861fe2b3e79cbbb9aa53328c3476ca"
-      },
-      "./src/patterns/structural_patterns/composite_pattern.ts": {
-        "version": "7674c332034c6181550dee78ad718b1a8610866302c8d0d3caa30ec171c0a65e",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "./src/patterns/structural_patterns/decorator_pattern.ts": {
-        "version": "a6e7217576ca76aa57a15fc3c8c8efc0a495695c0e4828698d01e9a001a22cd5",
-        "signature": "52e50a2a4f3550eba257c4da81cc5a39bac7f9d3e17b40afc8f7b977369f1bb2"
-      },
-      "./src/patterns/structural_patterns/facade_pattern.ts": {
-        "version": "d68ef1f17d7a0d58e6ff5c1929580e16349b3c74a48bba38b4c245acfc57866f",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "./src/patterns/structural_patterns/flyweight_pattern.ts": {
-        "version": "3508b67ba6f677252171dc3828457dc50db5a6a8489ada340b27465db43f6db3",
-        "signature": "2e43791dc089a5589d9e8f8583a8c213f1897089c591dec6b1a8198395fba56a"
-      },
-      "./src/patterns/structural_patterns/proxy_pattern.ts": {
-        "version": "d1e037c35a191e34c89754c62634fce5165a34ff33fb714280196ef894212814",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "./node_modules/@types/faker/index.d.ts": {
-        "version": "ad66649823c68baf176c089a54e7f28226ad803e5e4cadf42f44a40e8138b698",
-        "signature": "ad66649823c68baf176c089a54e7f28226ad803e5e4cadf42f44a40e8138b698"
-      },
-      "./node_modules/@types/googlemaps/index.d.ts": {
-        "version": "14665c4316d596b457d422bfe78ce7ddb562f26e771b51d5e7be241bcf9a60f3",
-        "signature": "14665c4316d596b457d422bfe78ce7ddb562f26e771b51d5e7be241bcf9a60f3"
       }
     },
     "options": {
@@ -810,13 +814,21 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/apply_functions.ts": [
+      "./src/functional_programming/added_from_easy_type/curry.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/test_curry.ts": [
+        "./src/functional_programming/added_from_easy_type/curry.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/index.ts": [
+        "./src/functional_programming/added_from_easy_type/test_curry.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -828,25 +840,96 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/container.ts": [
+      "./src/functional_programming/added_from_easy_type/common.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/either.ts": [
+      "./src/functional_programming/added_from_easy_type/container.ts": [
+        "./src/functional_programming/added_from_easy_type/common.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/either.ts": [
+        "./src/functional_programming/added_from_easy_type/common.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/functors.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/io.ts": [
+        "./src/functional_programming/added_from_easy_type/common.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/maybe.ts": [
+        "./src/functional_programming/added_from_easy_type/curry.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/maybe2.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/maybe3.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/task.ts": [
+        "./src/functional_programming/added_from_easy_type/common.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/maybe.ts": [
+      "./src/functional_programming/added_in_12_2019/apply_functions.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_in_12_2019/container.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_in_12_2019/either.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/monad.ts": [
+      "./src/functional_programming/added_in_12_2019/maybe.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_in_12_2019/monad.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -994,55 +1077,112 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/jquery/jquerystatic.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/jquery.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/misc.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/legacy.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/sizzle/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/index.d.ts": [
-        "./node_modules/@types/jquery/jquerystatic.d.ts",
-        "./node_modules/@types/jquery/jquery.d.ts",
-        "./node_modules/@types/jquery/misc.d.ts",
-        "./node_modules/@types/jquery/legacy.d.ts",
-        "./node_modules/@types/sizzle/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./src/patterns/behavioral_patterns/state_pattern.ts": [
-        "./node_modules/@types/jquery/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/patterns/behavioral_patterns/strategy_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/behavioral_patterns/template_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/behavioral_patterns/visitor_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/creation_patterns/abstract_factory_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/creation_patterns/builder_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/creation_patterns/factory_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/creation_patterns/prototype_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/creation_patterns/singleton_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/my_patterns/look_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/my_patterns/message_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/adapter_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/bridge_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/composite_pattern.ts": [
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/decorator_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/facade_pattern.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/flyweight_pattern.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/patterns/structural_patterns/proxy_pattern.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1404,149 +1544,6 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/@types/caseless/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/form-data/index.d.ts": [
-        "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/http.d.ts",
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/tough-cookie/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/request/index.d.ts": [
-        "./node_modules/@types/caseless/index.d.ts",
-        "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/http.d.ts",
-        "./node_modules/@types/node/https.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/form-data/index.d.ts",
-        "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/tough-cookie/index.d.ts",
-        "./node_modules/@types/node/url.d.ts",
-        "./node_modules/@types/node/tls.d.ts",
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/behavioral_patterns/template_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/request/index.d.ts",
-        "./node_modules/@types/node/path.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/behavioral_patterns/visitor_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/creation_patterns/abstract_factory_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/creation_patterns/builder_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/creation_patterns/factory_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/creation_patterns/prototype_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/creation_patterns/singleton_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/my_patterns/message_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/adapter_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/bridge_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/composite_pattern.ts": [
-        "./node_modules/@types/node/path.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/decorator_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/facade_pattern.ts": [
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/flyweight_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/patterns/structural_patterns/proxy_pattern.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/faker/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/googlemaps/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1772,6 +1769,9 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/index.ts": [
+        "./src/functional_programming/added_from_easy_type/test_curry.ts"
+      ],
       "./node_modules/reflect-metadata/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1786,47 +1786,6 @@
       ],
       "./src/metadata/my_metadata.ts": [
         "./node_modules/reflect-metadata/index.d.ts"
-      ],
-      "./node_modules/@types/jquery/jquerystatic.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/jquery.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/misc.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/legacy.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/sizzle/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/jquery/index.d.ts": [
-        "./node_modules/@types/jquery/jquerystatic.d.ts",
-        "./node_modules/@types/jquery/jquery.d.ts",
-        "./node_modules/@types/jquery/misc.d.ts",
-        "./node_modules/@types/jquery/legacy.d.ts",
-        "./node_modules/@types/sizzle/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/node/globals.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -2184,55 +2143,6 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/@types/caseless/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/form-data/index.d.ts": [
-        "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/http.d.ts",
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/tough-cookie/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/request/index.d.ts": [
-        "./node_modules/@types/caseless/index.d.ts",
-        "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/http.d.ts",
-        "./node_modules/@types/node/https.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/form-data/index.d.ts",
-        "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/tough-cookie/index.d.ts",
-        "./node_modules/@types/node/url.d.ts",
-        "./node_modules/@types/node/tls.d.ts",
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/faker/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/googlemaps/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2273,12 +2183,905 @@
       "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "./src/functional_programming/added_from_easy_type/curry.ts",
+      [
+        "./src/functional_programming/added_from_easy_type/test_curry.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/test_curry.ts",
+            "start": 177,
+            "length": 4,
+            "messageText": "Object is of type 'unknown'.",
+            "category": 1,
+            "code": 2571
+          }
+        ]
+      ],
       "./src/index.ts",
       "./src/decorators/decorators.ts",
-      "./src/functional_programming/container.ts",
-      "./src/functional_programming/either.ts",
-      "./src/functional_programming/maybe.ts",
-      "./src/functional_programming/monad.ts",
+      [
+        "./src/functional_programming/added_from_easy_type/common.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 871,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 875,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 978,
+            "length": 6,
+            "messageText": "Rest parameter 'fns' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7019
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 990,
+            "length": 7,
+            "messageText": "Rest parameter 'args' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7019
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1149,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1152,
+            "length": 1,
+            "messageText": "Parameter 'g' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1155,
+            "length": 1,
+            "messageText": "Parameter 'e' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1289,
+            "length": 8,
+            "messageText": "Function implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7024
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1290,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1394,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1458,
+            "length": 11,
+            "messageText": "'inspectTerm' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1470,
+            "length": 1,
+            "messageText": "Parameter 't' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1582,
+            "length": 2,
+            "messageText": "'ts' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.",
+            "category": 1,
+            "code": 7022
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1661,
+            "length": 2,
+            "messageText": "Parameter 'kv' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1768,
+            "length": 11,
+            "messageText": "'inspectArgs' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1780,
+            "length": 4,
+            "messageText": "Parameter 'args' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 2189,
+            "length": 2,
+            "messageText": "Parameter 'xs' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/container.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 151,
+            "length": 6,
+            "messageText": "Member '$value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 175,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 226,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 480,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 487,
+            "length": 5,
+            "messageText": "Parameter 'value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/either.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 140,
+            "length": 8,
+            "messageText": "Cannot find module 'moment'.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 179,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 199,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 248,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 289,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 349,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 481,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 668,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 722,
+            "length": 3,
+            "messageText": "Parameter 'str' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 810,
+            "length": 3,
+            "messageText": "Parameter 'str' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 1355,
+            "length": 7,
+            "messageText": "Parameter 'dataNow' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 1364,
+            "length": 4,
+            "messageText": "Parameter 'user' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/functors.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
+            "start": 50,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
+            "start": 101,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
+            "start": 151,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
+            "start": 375,
+            "length": 3,
+            "messageText": "Parameter 'two' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
+            "start": 400,
+            "length": 4,
+            "messageText": "Parameter 'some' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/io.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 155,
+            "length": 6,
+            "messageText": "Member '$value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 177,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 237,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 284,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 603,
+            "length": 2,
+            "messageText": "Parameter 'ob' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/maybe.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
+            "start": 77,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
+            "start": 229,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
+            "start": 274,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
+            "start": 575,
+            "length": 3,
+            "messageText": "Parameter 'reg' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
+            "start": 638,
+            "length": 3,
+            "messageText": "Parameter 'val' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/maybe2.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 29,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 53,
+            "length": 5,
+            "messageText": "Parameter 'value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 111,
+            "length": 1,
+            "messageText": "Parameter 'a' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 161,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 219,
+            "length": 4,
+            "messageText": "'join' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 434,
+            "length": 3,
+            "messageText": "Parameter 'reg' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 544,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 565,
+            "length": 4,
+            "messageText": "Cannot redeclare block-scoped variable 'some'.",
+            "category": 1,
+            "code": 2451,
+            "relatedInformation": [
+              {
+                "file": "./src/patterns/structural_patterns/adapter_pattern.ts",
+                "start": 1646,
+                "length": 4,
+                "messageText": "'some' was also declared here.",
+                "category": 3,
+                "code": 6203
+              }
+            ]
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+            "start": 637,
+            "length": 2,
+            "messageText": "Cannot redeclare block-scoped variable 'me'.",
+            "category": 1,
+            "code": 2451,
+            "relatedInformation": [
+              {
+                "file": "./src/misc/other/call_example.ts",
+                "start": 183,
+                "length": 2,
+                "messageText": "'me' was also declared here.",
+                "category": 3,
+                "code": 6203
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/maybe3.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 28,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 73,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 226,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 292,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 486,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 594,
+            "length": 3,
+            "messageText": "Parameter 'reg' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 661,
+            "length": 3,
+            "messageText": "Parameter 'val' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 832,
+            "length": 3,
+            "messageText": "Parameter 'val' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
+            "start": 875,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 39,
+            "length": 1,
+            "messageText": "Parameter 'a' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 161,
+            "length": 1,
+            "messageText": "Parameter 'a' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 247,
+            "length": 1,
+            "messageText": "Parameter 'a' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 434,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 458,
+            "length": 5,
+            "messageText": "Parameter 'value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 581,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 654,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 761,
+            "length": 2,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1014,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1030,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1072,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1222,
+            "length": 5,
+            "messageText": "Parameter 'other' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1430,
+            "length": 3,
+            "messageText": "Parameter 'reg' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
+            "start": 1542,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/task.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 213,
+            "length": 4,
+            "messageText": "Member 'fork' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 235,
+            "length": 4,
+            "messageText": "Parameter 'fork' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 359,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 387,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 395,
+            "length": 1,
+            "messageText": "Parameter '_' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 466,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 494,
+            "length": 1,
+            "messageText": "Parameter '_' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 497,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 569,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 598,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 606,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 710,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 739,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 804,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 833,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 841,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 871,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 996,
+            "length": 8,
+            "messageText": "Parameter 'filename' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 1018,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 1026,
+            "length": 6,
+            "messageText": "Parameter 'result' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      "./src/functional_programming/added_in_12_2019/apply_functions.ts",
+      "./src/functional_programming/added_in_12_2019/container.ts",
+      "./src/functional_programming/added_in_12_2019/either.ts",
+      "./src/functional_programming/added_in_12_2019/maybe.ts",
+      "./src/functional_programming/added_in_12_2019/monad.ts",
       "./node_modules/reflect-metadata/index.d.ts",
       "./src/metadata/metadata.ts",
       "./src/metadata/metadata2.ts",
@@ -2286,7 +3089,29 @@
       "./src/misc/generators/generator_1.ts",
       "./src/misc/generators/generator_2.ts",
       "./src/misc/generators/generator_3.ts",
-      "./src/misc/other/call_example.ts",
+      [
+        "./src/misc/other/call_example.ts",
+        [
+          {
+            "file": "./src/misc/other/call_example.ts",
+            "start": 183,
+            "length": 2,
+            "messageText": "Cannot redeclare block-scoped variable 'me'.",
+            "category": 1,
+            "code": 2451,
+            "relatedInformation": [
+              {
+                "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+                "start": 637,
+                "length": 2,
+                "messageText": "'me' was also declared here.",
+                "category": 3,
+                "code": 6203
+              }
+            ]
+          }
+        ]
+      ],
       "./src/misc/other/es_2019.ts",
       "./src/misc/other/mixin_class.ts",
       "./src/misc/other/mixin_class_2.ts",
@@ -2302,14 +3127,93 @@
       "./src/patterns/behavioral_patterns/observer_pattern_2.ts",
       "./src/patterns/behavioral_patterns/observer_pattern_3.ts",
       "./src/patterns/behavioral_patterns/observer_pattern_4.ts",
-      "./node_modules/@types/jquery/jquerystatic.d.ts",
-      "./node_modules/@types/jquery/jquery.d.ts",
-      "./node_modules/@types/jquery/misc.d.ts",
-      "./node_modules/@types/jquery/legacy.d.ts",
-      "./node_modules/@types/sizzle/index.d.ts",
-      "./node_modules/@types/jquery/index.d.ts",
-      "./src/patterns/behavioral_patterns/state_pattern.ts",
+      [
+        "./src/patterns/behavioral_patterns/state_pattern.ts",
+        [
+          {
+            "file": "./src/patterns/behavioral_patterns/state_pattern.ts",
+            "start": 20,
+            "length": 8,
+            "messageText": "Cannot find module 'jQuery'.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
       "./src/patterns/behavioral_patterns/strategy_pattern.ts",
+      [
+        "./src/patterns/behavioral_patterns/template_pattern.ts",
+        [
+          {
+            "file": "./src/patterns/behavioral_patterns/template_pattern.ts",
+            "start": 48,
+            "length": 9,
+            "messageText": "Cannot find module 'request'.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/patterns/behavioral_patterns/template_pattern.ts",
+            "start": 2051,
+            "length": 5,
+            "messageText": "Parameter 'error' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/patterns/behavioral_patterns/template_pattern.ts",
+            "start": 2058,
+            "length": 5,
+            "messageText": "Parameter 'bytes' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/patterns/behavioral_patterns/template_pattern.ts",
+            "start": 2065,
+            "length": 4,
+            "messageText": "Parameter 'body' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      "./src/patterns/behavioral_patterns/visitor_pattern.ts",
+      "./src/patterns/creation_patterns/abstract_factory_pattern.ts",
+      "./src/patterns/creation_patterns/builder_pattern.ts",
+      "./src/patterns/creation_patterns/factory_pattern.ts",
+      "./src/patterns/creation_patterns/prototype_pattern.ts",
+      "./src/patterns/creation_patterns/singleton_pattern.ts",
+      "./src/patterns/my_patterns/message_pattern.ts",
+      [
+        "./src/patterns/structural_patterns/adapter_pattern.ts",
+        [
+          {
+            "file": "./src/patterns/structural_patterns/adapter_pattern.ts",
+            "start": 1646,
+            "length": 4,
+            "messageText": "Cannot redeclare block-scoped variable 'some'.",
+            "category": 1,
+            "code": 2451,
+            "relatedInformation": [
+              {
+                "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
+                "start": 565,
+                "length": 4,
+                "messageText": "'some' was also declared here.",
+                "category": 3,
+                "code": 6203
+              }
+            ]
+          }
+        ]
+      ],
+      "./src/patterns/structural_patterns/bridge_pattern.ts",
+      "./src/patterns/structural_patterns/composite_pattern.ts",
+      "./src/patterns/structural_patterns/decorator_pattern.ts",
+      "./src/patterns/structural_patterns/facade_pattern.ts",
+      "./src/patterns/structural_patterns/flyweight_pattern.ts",
+      "./src/patterns/structural_patterns/proxy_pattern.ts",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
@@ -2355,61 +3259,7 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./node_modules/@types/caseless/index.d.ts",
-      "./node_modules/form-data/index.d.ts",
-      "./node_modules/@types/tough-cookie/index.d.ts",
-      "./node_modules/@types/request/index.d.ts",
-      "./src/patterns/behavioral_patterns/template_pattern.ts",
-      "./src/patterns/behavioral_patterns/visitor_pattern.ts",
-      "./src/patterns/creation_patterns/abstract_factory_pattern.ts",
-      "./src/patterns/creation_patterns/builder_pattern.ts",
-      "./src/patterns/creation_patterns/factory_pattern.ts",
-      "./src/patterns/creation_patterns/prototype_pattern.ts",
-      "./src/patterns/creation_patterns/singleton_pattern.ts",
-      "./src/patterns/my_patterns/message_pattern.ts",
-      "./src/patterns/structural_patterns/adapter_pattern.ts",
-      "./src/patterns/structural_patterns/bridge_pattern.ts",
-      "./src/patterns/structural_patterns/composite_pattern.ts",
-      "./src/patterns/structural_patterns/decorator_pattern.ts",
-      "./src/patterns/structural_patterns/facade_pattern.ts",
-      "./src/patterns/structural_patterns/flyweight_pattern.ts",
-      "./src/patterns/structural_patterns/proxy_pattern.ts",
-      "./node_modules/@types/faker/index.d.ts",
-      "./node_modules/@types/googlemaps/index.d.ts",
-      [
-        "./src/functional_programming/apply_functions.ts",
-        [
-          {
-            "file": "./src/functional_programming/apply_functions.ts",
-            "start": 1334,
-            "length": 7,
-            "code": 2345,
-            "category": 1,
-            "messageText": {
-              "messageText": "Argument of type '(textOne: string) => (textTwo: string) => string' is not assignable to parameter of type '(value: string) => string'.",
-              "category": 1,
-              "code": 2345,
-              "next": [
-                {
-                  "messageText": "Type '(textTwo: string) => string' is not assignable to type 'string'.",
-                  "category": 1,
-                  "code": 2322
-                }
-              ]
-            },
-            "relatedInformation": [
-              {
-                "file": "./src/functional_programming/apply_functions.ts",
-                "start": 1334,
-                "length": 7,
-                "messageText": "Did you mean to call this expression?",
-                "category": 3,
-                "code": 6212
-              }
-            ]
-          }
-        ]
-      ]
+      "./src/patterns/my_patterns/look_pattern.ts"
     ]
   },
   "version": "3.7.2"
