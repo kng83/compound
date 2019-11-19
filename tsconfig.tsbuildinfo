@@ -149,60 +149,72 @@
         "version": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255",
         "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
       },
-      "./src/functional_programming/added_from_easy_type/curry.ts": {
-        "version": "988e9719ef3d32af03758f559f80adb6aefde9d5960a25d9c5493f8d16e994ea",
-        "signature": "8326c5a92fd480473d359267091f487717acc67ecc2a461fe82c67e18be6249f"
+      "./src/functional_programming/added_from_easy_type/pipe.ts": {
+        "version": "2f01af598e3b69aac825ddc5b0881f652d77d37fe7d881fb9ae15d2f0282c328",
+        "signature": "c15b82c2edbfbe5e99eb0d9f1e6544e31e98d7cbfc4be911ce147146a8347feb"
       },
-      "./src/functional_programming/added_from_easy_type/test_curry.ts": {
-        "version": "0c8b3791e30131f94cf142b8e984221f470eefc094ed86ffb6fba0ab165fcb8e",
+      "./src/functional_programming/added_from_easy_type/curry.ts": {
+        "version": "e5887bbc0146007a066bf6c8369e65ade9df9c6ac69cafe0c4e6b4a615f6a0b7",
+        "signature": "b0a7701f9e8d9c759e1829b5943e0806f8d20a1c1915af47227c713d5bcf858f"
+      },
+      "./src/functional_programming/added_from_easy_type/test_pipe.ts": {
+        "version": "3dbf67b4a61b4a8910a33be5b6987ceb9a2c3b9c266d5ae4717ec3181bfca9f4",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/index.ts": {
-        "version": "565d244fba249d7a0fcd1ffcaf81dec0d5ffdaf4bbe8dc488cd511c024ecd5c0",
-        "signature": "61021b36a606af87ff7e2305ab058ad1313dfcd17a390af49412cc73a18661d5"
+        "version": "7e9520d83e9163852780116f4b8dbc72496e5e3bdf15af93691a578b2fee746f",
+        "signature": "b78a74442436be57c3b488e32294e2a98fd230ee1924833f0b54faf8da32225b"
       },
       "./src/decorators/decorators.ts": {
         "version": "6e96dc3e76d86a09f1fc94b3510aa9a338582af7c14f42026b0ed67557e9f2fa",
         "signature": "01012a1d45b762773d7966ce715d0b041b66db3ed53f7ac12570e8eb3f6ed4ed"
       },
       "./src/functional_programming/added_from_easy_type/common.ts": {
-        "version": "fe566e665fce3ff853475f0a0166f03df8be6c2e45385237373c6b3d3335c00f",
-        "signature": "81ae070fcb8165056c033b0656062ae201611c3bc291619409035b6f987a3124"
+        "version": "3b4145a31cd0f867c3de1a285b7d27ad7cfc4c540cdab12eeae9ea9071e0ac98",
+        "signature": "dcde639c3d958483604513280b512b5763c18c0c51147f59b683465c279bc8ba"
       },
       "./src/functional_programming/added_from_easy_type/container.ts": {
-        "version": "6feb609ef7c727e32b0ea66fc0e863c913c507d4f41f1c61c3057819e9ee6927",
+        "version": "dc1de3fb1e4c433fa8245d3d82dce76325846209c7052273a2e83a41380fbae7",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
+      "./node_modules/moment/moment.d.ts": {
+        "version": "d62fa6fe33566fa743b3d6715a1a2fe46e937ba9d2ba158563c5744315d438a7",
+        "signature": "d62fa6fe33566fa743b3d6715a1a2fe46e937ba9d2ba158563c5744315d438a7"
+      },
       "./src/functional_programming/added_from_easy_type/either.ts": {
-        "version": "3e47c3d2d57aee1869b6008bbcc28eded9b3bc873a043afc095796b5f038cafd",
+        "version": "8826cf200169686c9d9250fd9eea97f2bf833a22eef36222aec7c00991a4a847",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/functional_programming/added_from_easy_type/functors.ts": {
-        "version": "a81981cf117af3f652123c703526509efaedd9eb24169eb291d99e5fe35eac13",
-        "signature": "e415f2673cd1a8083d68e8e52638b3912838aa606463dbbb53c44515ea5b5d7e"
+        "version": "fc85470d3e5394577e4d1d7361ddc063f73e06fe758675f111c3b86966404be6",
+        "signature": "34c854baf91e0eba544c978f8566f09434a43fc5eb95cbcae9c033b579f0b104"
       },
       "./src/functional_programming/added_from_easy_type/io.ts": {
-        "version": "a0a9313871b001f4f9f62a90a63d7aa8ed5464f85eba26ae5f5e6975a793a150",
+        "version": "d91d3abe0796e05ab90efcaf5717b619cc9db8927e4d66f447e7cd01e81412af",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/functional_programming/added_from_easy_type/maybe.ts": {
-        "version": "506863f4ef36ef18db505b1a414f6bba5ae286c18ad071c83ef39415fb7ed0fe",
+        "version": "660f4339d9616f06a74c04981e43b655b344cbef8abc8ac267fa00009caca931",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/functional_programming/added_from_easy_type/maybe2.ts": {
-        "version": "8eac7ce2ffd5ca8df943233277149a6d03ad3a4de5c4cc2ea171e94a59fc1d28",
+        "version": "a69e5df88bf22a46bf49c1c10160a3eb7296a32ce0c8dfba65f8415e890bbbc6",
         "signature": "1297e7bc7d401f2dd72c8cb3d4acda5ac4224ed1e480b8d4f21dbf100a09c97a"
       },
       "./src/functional_programming/added_from_easy_type/maybe3.ts": {
-        "version": "96a875e8b9b443856051eb6d1cd826dd764f86810084f46626e914df929b55bd",
+        "version": "4d11c757d706f12bed6d18525ff508af5b45f9a2e40c7e41e891c3b9800b5172",
         "signature": "904b054d11c49708412738f7a5ff277679ae9c65b1ac7b0fbabf74d0b12395fc"
       },
       "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts": {
-        "version": "f72151cbf75db0470a16ace5cc71463928d7fb6df6c98ebd0fe5a37683eaf172",
+        "version": "2efb1222831666406198441b2cc11f980206ac1820986bdfd7e351da76fe12a6",
         "signature": "13e391ecaa30134862796d87deddb566994e006b843136090d79263d82407305"
       },
       "./src/functional_programming/added_from_easy_type/task.ts": {
-        "version": "6d952f1a28b20562dd3b5d660a4b7ff6d18a626047c5a5504458350c8c9a8b11",
+        "version": "75f9e086aed9d6dabd01ded58f00713e4b2bb803897fa45b23d62762f0b60a2c",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/functional_programming/added_from_easy_type/test_curry.ts": {
+        "version": "c3178fab5e6c726d0528b1c69dc54514d80ed6f93c91480352814a76c2789316",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/functional_programming/added_in_12_2019/apply_functions.ts": {
@@ -354,7 +366,7 @@
         "signature": "21b116edfd1e1b7c0a282f1d3f86a4caa2460dc90d69a7470490fe3419537510"
       },
       "./src/patterns/my_patterns/look_pattern.ts": {
-        "version": "1bdb786d82ba73872fba1b190c5638e7a518a48c14af8de5590e8053a11953c1",
+        "version": "433341be64dbc31643f6ab38bb929ca0d6f942c006b91353c0c4b8bd0f0bd517",
         "signature": "d176f17c83eaa33a5d589a5b5faaf201e6b9a50a873c1a2c8d255a2f3a14fbfc"
       },
       "./src/patterns/my_patterns/message_pattern.ts": {
@@ -814,13 +826,20 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/functional_programming/added_from_easy_type/pipe.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/functional_programming/added_from_easy_type/curry.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functional_programming/added_from_easy_type/test_curry.ts": [
+      "./src/functional_programming/added_from_easy_type/test_pipe.ts": [
+        "./src/functional_programming/added_from_easy_type/pipe.ts",
         "./src/functional_programming/added_from_easy_type/curry.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -828,7 +847,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/index.ts": [
-        "./src/functional_programming/added_from_easy_type/test_curry.ts",
+        "./src/functional_programming/added_from_easy_type/test_pipe.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -853,8 +872,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/moment/moment.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/functional_programming/added_from_easy_type/either.ts": [
         "./src/functional_programming/added_from_easy_type/common.ts",
+        "./node_modules/moment/moment.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -903,6 +929,13 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functional_programming/added_from_easy_type/test_curry.ts": [
+        "./src/functional_programming/added_from_easy_type/curry.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/functional_programming/added_in_12_2019/apply_functions.ts": [
@@ -1769,8 +1802,11 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/index.ts": [
-        "./src/functional_programming/added_from_easy_type/test_curry.ts"
+      "./node_modules/moment/moment.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/reflect-metadata/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -2183,405 +2219,19 @@
       "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "./src/functional_programming/added_from_easy_type/pipe.ts",
       "./src/functional_programming/added_from_easy_type/curry.ts",
-      [
-        "./src/functional_programming/added_from_easy_type/test_curry.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/test_curry.ts",
-            "start": 177,
-            "length": 4,
-            "messageText": "Object is of type 'unknown'.",
-            "category": 1,
-            "code": 2571
-          }
-        ]
-      ],
+      "./src/functional_programming/added_from_easy_type/test_pipe.ts",
       "./src/index.ts",
       "./src/decorators/decorators.ts",
-      [
-        "./src/functional_programming/added_from_easy_type/common.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 871,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 875,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 978,
-            "length": 6,
-            "messageText": "Rest parameter 'fns' implicitly has an 'any[]' type.",
-            "category": 1,
-            "code": 7019
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 990,
-            "length": 7,
-            "messageText": "Rest parameter 'args' implicitly has an 'any[]' type.",
-            "category": 1,
-            "code": 7019
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1149,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1152,
-            "length": 1,
-            "messageText": "Parameter 'g' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1155,
-            "length": 1,
-            "messageText": "Parameter 'e' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1289,
-            "length": 8,
-            "messageText": "Function implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
-            "category": 1,
-            "code": 7024
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1290,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1394,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1458,
-            "length": 11,
-            "messageText": "'inspectTerm' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
-            "category": 1,
-            "code": 7023
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1470,
-            "length": 1,
-            "messageText": "Parameter 't' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1582,
-            "length": 2,
-            "messageText": "'ts' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.",
-            "category": 1,
-            "code": 7022
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1661,
-            "length": 2,
-            "messageText": "Parameter 'kv' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1768,
-            "length": 11,
-            "messageText": "'inspectArgs' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
-            "category": 1,
-            "code": 7023
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 1780,
-            "length": 4,
-            "messageText": "Parameter 'args' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/common.ts",
-            "start": 2189,
-            "length": 2,
-            "messageText": "Parameter 'xs' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
-      [
-        "./src/functional_programming/added_from_easy_type/container.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/container.ts",
-            "start": 151,
-            "length": 6,
-            "messageText": "Member '$value' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7008
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/container.ts",
-            "start": 175,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/container.ts",
-            "start": 226,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/container.ts",
-            "start": 480,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/container.ts",
-            "start": 487,
-            "length": 5,
-            "messageText": "Parameter 'value' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
-      [
-        "./src/functional_programming/added_from_easy_type/either.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 140,
-            "length": 8,
-            "messageText": "Cannot find module 'moment'.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 179,
-            "length": 6,
-            "messageText": "Member '_value' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7008
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 199,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 248,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 289,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 349,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 481,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 668,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 722,
-            "length": 3,
-            "messageText": "Parameter 'str' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 810,
-            "length": 3,
-            "messageText": "Parameter 'str' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 1355,
-            "length": 7,
-            "messageText": "Parameter 'dataNow' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/either.ts",
-            "start": 1364,
-            "length": 4,
-            "messageText": "Parameter 'user' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
-      [
-        "./src/functional_programming/added_from_easy_type/functors.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
-            "start": 50,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
-            "start": 101,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
-            "start": 151,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
-            "start": 375,
-            "length": 3,
-            "messageText": "Parameter 'two' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/functors.ts",
-            "start": 400,
-            "length": 4,
-            "messageText": "Parameter 'some' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
-      [
-        "./src/functional_programming/added_from_easy_type/io.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/io.ts",
-            "start": 155,
-            "length": 6,
-            "messageText": "Member '$value' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7008
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/io.ts",
-            "start": 177,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/io.ts",
-            "start": 237,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/io.ts",
-            "start": 284,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/io.ts",
-            "start": 603,
-            "length": 2,
-            "messageText": "Parameter 'ob' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
+      "./node_modules/moment/moment.d.ts",
+      "./src/functional_programming/added_from_easy_type/functors.ts",
       [
         "./src/functional_programming/added_from_easy_type/maybe.ts",
         [
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
-            "start": 77,
+            "start": 82,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2589,7 +2239,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
-            "start": 229,
+            "start": 242,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2597,7 +2247,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
-            "start": 274,
+            "start": 291,
             "length": 2,
             "messageText": "Parameter 'fn' implicitly has an 'any' type.",
             "category": 1,
@@ -2605,7 +2255,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
-            "start": 575,
+            "start": 609,
             "length": 3,
             "messageText": "Parameter 'reg' implicitly has an 'any' type.",
             "category": 1,
@@ -2613,7 +2263,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe.ts",
-            "start": 638,
+            "start": 673,
             "length": 3,
             "messageText": "Parameter 'val' implicitly has an 'any' type.",
             "category": 1,
@@ -2626,7 +2276,7 @@
         [
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 29,
+            "start": 31,
             "length": 6,
             "messageText": "Member '_value' implicitly has an 'any' type.",
             "category": 1,
@@ -2634,7 +2284,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 53,
+            "start": 56,
             "length": 5,
             "messageText": "Parameter 'value' implicitly has an 'any' type.",
             "category": 1,
@@ -2642,7 +2292,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 111,
+            "start": 117,
             "length": 1,
             "messageText": "Parameter 'a' implicitly has an 'any' type.",
             "category": 1,
@@ -2650,7 +2300,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 161,
+            "start": 170,
             "length": 1,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2658,7 +2308,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 219,
+            "start": 231,
             "length": 4,
             "messageText": "'join' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
             "category": 1,
@@ -2666,7 +2316,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 434,
+            "start": 456,
             "length": 3,
             "messageText": "Parameter 'reg' implicitly has an 'any' type.",
             "category": 1,
@@ -2674,7 +2324,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 544,
+            "start": 568,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2682,7 +2332,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 565,
+            "start": 592,
             "length": 4,
             "messageText": "Cannot redeclare block-scoped variable 'some'.",
             "category": 1,
@@ -2700,7 +2350,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-            "start": 637,
+            "start": 665,
             "length": 2,
             "messageText": "Cannot redeclare block-scoped variable 'me'.",
             "category": 1,
@@ -2723,7 +2373,7 @@
         [
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 28,
+            "start": 30,
             "length": 6,
             "messageText": "Member '_value' implicitly has an 'any' type.",
             "category": 1,
@@ -2731,7 +2381,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 73,
+            "start": 77,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2739,7 +2389,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 226,
+            "start": 238,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2747,7 +2397,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 292,
+            "start": 309,
             "length": 2,
             "messageText": "Parameter 'fn' implicitly has an 'any' type.",
             "category": 1,
@@ -2755,7 +2405,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 486,
+            "start": 510,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2763,7 +2413,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 594,
+            "start": 627,
             "length": 3,
             "messageText": "Parameter 'reg' implicitly has an 'any' type.",
             "category": 1,
@@ -2771,7 +2421,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 661,
+            "start": 695,
             "length": 3,
             "messageText": "Parameter 'val' implicitly has an 'any' type.",
             "category": 1,
@@ -2779,7 +2429,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 832,
+            "start": 869,
             "length": 3,
             "messageText": "Parameter 'val' implicitly has an 'any' type.",
             "category": 1,
@@ -2787,7 +2437,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe3.ts",
-            "start": 875,
+            "start": 913,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2800,7 +2450,7 @@
         [
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 39,
+            "start": 41,
             "length": 1,
             "messageText": "Parameter 'a' implicitly has an 'any' type.",
             "category": 1,
@@ -2808,7 +2458,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 161,
+            "start": 169,
             "length": 1,
             "messageText": "Parameter 'a' implicitly has an 'any' type.",
             "category": 1,
@@ -2816,7 +2466,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 247,
+            "start": 258,
             "length": 1,
             "messageText": "Parameter 'a' implicitly has an 'any' type.",
             "category": 1,
@@ -2824,7 +2474,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 434,
+            "start": 457,
             "length": 6,
             "messageText": "Member '_value' implicitly has an 'any' type.",
             "category": 1,
@@ -2832,7 +2482,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 458,
+            "start": 482,
             "length": 5,
             "messageText": "Parameter 'value' implicitly has an 'any' type.",
             "category": 1,
@@ -2840,7 +2490,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 581,
+            "start": 614,
             "length": 1,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2848,7 +2498,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 654,
+            "start": 691,
             "length": 1,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2856,7 +2506,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 761,
+            "start": 806,
             "length": 2,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2864,7 +2514,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1014,
+            "start": 1073,
             "length": 6,
             "messageText": "Member '_value' implicitly has an 'any' type.",
             "category": 1,
@@ -2872,7 +2522,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1030,
+            "start": 1090,
             "length": 1,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2880,7 +2530,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1072,
+            "start": 1135,
             "length": 1,
             "messageText": "Parameter 'f' implicitly has an 'any' type.",
             "category": 1,
@@ -2888,7 +2538,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1222,
+            "start": 1291,
             "length": 5,
             "messageText": "Parameter 'other' implicitly has an 'any' type.",
             "category": 1,
@@ -2896,7 +2546,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1430,
+            "start": 1513,
             "length": 3,
             "messageText": "Parameter 'reg' implicitly has an 'any' type.",
             "category": 1,
@@ -2904,7 +2554,7 @@
           },
           {
             "file": "./src/functional_programming/added_from_easy_type/maybe_just_nothing.ts",
-            "start": 1542,
+            "start": 1627,
             "length": 1,
             "messageText": "Parameter 'x' implicitly has an 'any' type.",
             "category": 1,
@@ -2912,171 +2562,7 @@
           }
         ]
       ],
-      [
-        "./src/functional_programming/added_from_easy_type/task.ts",
-        [
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 213,
-            "length": 4,
-            "messageText": "Member 'fork' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7008
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 235,
-            "length": 4,
-            "messageText": "Parameter 'fork' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 359,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 387,
-            "length": 6,
-            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 395,
-            "length": 1,
-            "messageText": "Parameter '_' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 466,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 494,
-            "length": 1,
-            "messageText": "Parameter '_' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 497,
-            "length": 7,
-            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 569,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 598,
-            "length": 6,
-            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 606,
-            "length": 7,
-            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 710,
-            "length": 1,
-            "messageText": "Parameter 'f' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 739,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 804,
-            "length": 2,
-            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 833,
-            "length": 6,
-            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 841,
-            "length": 7,
-            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 871,
-            "length": 1,
-            "messageText": "Parameter 'x' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 996,
-            "length": 8,
-            "messageText": "Parameter 'filename' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 1018,
-            "length": 6,
-            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/functional_programming/added_from_easy_type/task.ts",
-            "start": 1026,
-            "length": 6,
-            "messageText": "Parameter 'result' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          }
-        ]
-      ],
+      "./src/functional_programming/added_from_easy_type/test_curry.ts",
       "./src/functional_programming/added_in_12_2019/apply_functions.ts",
       "./src/functional_programming/added_in_12_2019/container.ts",
       "./src/functional_programming/added_in_12_2019/either.ts",
@@ -3102,7 +2588,7 @@
             "relatedInformation": [
               {
                 "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-                "start": 637,
+                "start": 665,
                 "length": 2,
                 "messageText": "'me' was also declared here.",
                 "category": 3,
@@ -3184,6 +2670,7 @@
       "./src/patterns/creation_patterns/factory_pattern.ts",
       "./src/patterns/creation_patterns/prototype_pattern.ts",
       "./src/patterns/creation_patterns/singleton_pattern.ts",
+      "./src/patterns/my_patterns/look_pattern.ts",
       "./src/patterns/my_patterns/message_pattern.ts",
       [
         "./src/patterns/structural_patterns/adapter_pattern.ts",
@@ -3198,7 +2685,7 @@
             "relatedInformation": [
               {
                 "file": "./src/functional_programming/added_from_easy_type/maybe2.ts",
-                "start": 565,
+                "start": 592,
                 "length": 4,
                 "messageText": "'some' was also declared here.",
                 "category": 3,
@@ -3259,7 +2746,479 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./src/patterns/my_patterns/look_pattern.ts"
+      [
+        "./src/functional_programming/added_from_easy_type/common.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 907,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 911,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1018,
+            "length": 6,
+            "messageText": "Rest parameter 'fns' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7019
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1030,
+            "length": 7,
+            "messageText": "Rest parameter 'args' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7019
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1192,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1195,
+            "length": 1,
+            "messageText": "Parameter 'g' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1198,
+            "length": 1,
+            "messageText": "Parameter 'e' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1341,
+            "length": 8,
+            "messageText": "Function implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7024
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1342,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1555,
+            "length": 11,
+            "messageText": "'inspectTerm' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1567,
+            "length": 1,
+            "messageText": "Parameter 't' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1684,
+            "length": 2,
+            "messageText": "'ts' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.",
+            "category": 1,
+            "code": 7022
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1764,
+            "length": 2,
+            "messageText": "Parameter 'kv' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1878,
+            "length": 11,
+            "messageText": "'inspectArgs' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/common.ts",
+            "start": 1890,
+            "length": 4,
+            "messageText": "Parameter 'args' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/task.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 218,
+            "length": 4,
+            "messageText": "Member 'fork' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 241,
+            "length": 4,
+            "messageText": "Parameter 'fork' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 373,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 402,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 410,
+            "length": 1,
+            "messageText": "Parameter '_' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 485,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 514,
+            "length": 1,
+            "messageText": "Parameter '_' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 517,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 593,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 623,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 631,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 739,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 769,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 838,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 868,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 876,
+            "length": 7,
+            "messageText": "Parameter 'resolve' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 906,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 1039,
+            "length": 8,
+            "messageText": "Parameter 'filename' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 1061,
+            "length": 6,
+            "messageText": "Parameter 'reject' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/task.ts",
+            "start": 1069,
+            "length": 6,
+            "messageText": "Parameter 'result' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/io.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 158,
+            "length": 6,
+            "messageText": "Member '$value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 181,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 245,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 296,
+            "length": 2,
+            "messageText": "Parameter 'fn' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/io.ts",
+            "start": 631,
+            "length": 2,
+            "messageText": "Parameter 'ob' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/either.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 184,
+            "length": 6,
+            "messageText": "Member '_value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 205,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 258,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 302,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 368,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 511,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 708,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 764,
+            "length": 3,
+            "messageText": "Parameter 'str' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 856,
+            "length": 3,
+            "messageText": "Parameter 'str' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 1418,
+            "length": 7,
+            "messageText": "Parameter 'dataNow' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/either.ts",
+            "start": 1427,
+            "length": 4,
+            "messageText": "Parameter 'user' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      [
+        "./src/functional_programming/added_from_easy_type/container.ts",
+        [
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 154,
+            "length": 6,
+            "messageText": "Member '$value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7008
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 179,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 234,
+            "length": 1,
+            "messageText": "Parameter 'x' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 495,
+            "length": 1,
+            "messageText": "Parameter 'f' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/functional_programming/added_from_easy_type/container.ts",
+            "start": 502,
+            "length": 5,
+            "messageText": "Parameter 'value' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ]
     ]
   },
   "version": "3.7.2"

@@ -7,7 +7,7 @@ namespace Look_1{
     }
     
     // this can be used to make super Class with loot of power
-    class Somer {
+    class Some {
         protected customModel = new Look();
     
         get verify() {
@@ -21,7 +21,7 @@ namespace Look_1{
         };
     }
     
-    let some = new Somer();
+    let some = new Some();
     console.log(some.verify.myAge);
     
 }

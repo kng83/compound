@@ -1,19 +1,19 @@
 
-export let match = (reg:string) => (val: string) => val.match(reg);
-export let prop = (prop: any) => (val:any) => val[prop];
+export let match = (reg: string) => (val: string) => val.match(reg);
+export let prop = (prop: any) => (val: any) => val[prop];
 export let add = (add: number) => (val: number) => val + add;
 export let toString = (val: any) => val.toString();
 export let toUpper = (val: string) => val.toString().toUpperCase();
-export let strAdd = (addString: string) => (val:string) => addString + val;
+export let strAdd = (addString: string) => (val: string) => addString + val;
 export let append = (str: string) => (val: string) => str + '' + val;
-export const identity = <T>( x:T) => x;
-export let tap = (val: any) => { console.log(val); return val; }
+export const identity = <T>(x: T): T => x;
+export let tap = <T>(val: T): T => { console.log(val); return val; }
 
 // curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
-export function curry(fn:Function) {
+export function curry(fn: Function) {
   const arity = fn.length;
 
-  return function $curry(...args:any[]):any {
+  return function $curry(...args: any[]): any {
     if (args.length < arity) {
       return $curry.bind(null, ...args);
     }
@@ -41,7 +41,7 @@ export const inspection = (x) => {
     return x.inspect();
   }
 
-  function inspectFn(f) {
+  function inspectFn<T extends { name: any }>(f: T): string {
     return f.name ? f.name : f.toString();
   }
 
@@ -70,4 +70,4 @@ export const inspection = (x) => {
 export const split = (sep: string) => (str: string) => str.toString().split(sep);
 
 // head :: [a] -> a
-export const head = xs => xs[0];
+export const head = <T extends any[]>(xs: T) => xs[0];

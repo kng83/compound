@@ -1,24 +1,20 @@
-class Container {
-    $value:any;
-    constructor(x) {
-      this.$value = x;
-    }
-  
-    static of(x) {
-      return new Container(x);
-    }
-    map(f){
-      return Container.of(f(this.$value));
-    }
+
+
+class Container<T> {
+  constructor(private value: T) {
   }
-  
-  // Container.prototype.map = function (f) {
-  //   return Container.of(f(this.$value));
-  // };
-  
-  Container.of(3);
-  console.log(
-    Container.of(8)
+
+  static of<T>(x: T) {
+    return new Container(x);
+  }
+  map(fn: (value: T) => T): Container<T> {
+    return Container.of(fn(this.value));
+  }
+}
+
+Container.of(3);
+console.log(
+  Container.of(8)
     .map(two => two * 2)
     .map(some => some + 1)
-    );
+);

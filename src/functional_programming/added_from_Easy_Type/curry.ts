@@ -43,30 +43,7 @@ export function n_curry(fn:any) {
 }
 
 
-export function curry<T extends any[],R>(fn: (...args: T) => R, ...args:T): VariadicCurry<T, R>{
-    let a = n_curry(fn);
-    return (a as any)(...args) as  VariadicCurry<T, R>;
+export function curry<T extends any[],R>(fn: (...args: T) => R): VariadicCurry<T, R>{
+    return n_curry(fn);
 }
 
-// export function curry<T extends any[],R>(fn: (...args: T) => R, ...args:T): VariadicCurry<T, R>{
-//     let a = (n_curry as any)(fn(...args));
-//     return a as VariadicCurry<T, R>;
-// }
-
-
-//my curry
-// function curry<T extends Function>(fn:T){
-//     let fnLength=fn.length;
-//     let argsArr =[];
-//     function recursion(arg){
-//        argsArr.push(arg);
-//        fnLength--;
-//        if(fnLength ==0){
-//          return fn.call(fn,...argsArr);
-//        }
-//        else{
-//          return recursion;
-//      }
-//    }
-//     return recursion;    
-//   }
