@@ -1,10 +1,13 @@
 
 // compose :: ((a -> b), (b -> c),  ..., (y -> z)) -> a -> z
 import { compose, pipe } from './pipe';
+
 // curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
 import { curry } from './curry';
 
-let prop = (prop: any) => (val: any) => val[prop];
+// prop :: String -> Object -> a
+let prop = <T extends object, K extends keyof T>(prop: string) => (val: T[K]) => val[prop];
+
 let add = (add: number) => (val: number) => val + add;
 let toString = (val: any) => val.toString();
 let toUpper = (val: string) => val.toString().toUpperCase();

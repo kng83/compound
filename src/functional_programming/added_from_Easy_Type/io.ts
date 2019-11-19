@@ -3,7 +3,7 @@ import { match, add, prop, identity, strAdd, toUpper, compose, append, toString,
 class IO<T> {
   private $fnValue: () => T;
  
-  static of<T>(x: T) {
+  static of<T>(x: ()=>T) {
     return new IO(() => x);
   }
 
