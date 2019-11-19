@@ -1,4 +1,9 @@
 
+// compose :: ((a -> b), (b -> c),  ..., (y -> z)) -> a -> z
+import  { compose, pipe } from './pipe';
+// curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
+import  { curry } from './curry';
+
 export let match = (reg: string) => (val: string) => val.match(reg);
 export let prop = (prop: any) => (val: any) => val[prop];
 export let add = (add: number) => (val: number) => val + add;
@@ -9,22 +14,10 @@ export let append = (str: string) => (val: string) => str + '' + val;
 export const identity = <T>(x: T): T => x;
 export let tap = <T>(val: T): T => { console.log(val); return val; }
 
-// curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
-export function curry(fn: Function) {
-  const arity = fn.length;
 
-  return function $curry(...args: any[]): any {
-    if (args.length < arity) {
-      return $curry.bind(null, ...args);
-    }
 
-    return fn.call(null, ...args);
-  };
-}
 export const map = curry((fn, f) => f.map(fn));
 
-// compose :: ((a -> b), (b -> c),  ..., (y -> z)) -> a -> z
-export const compose = (...fns) => (...args) => fns.reduceRight((res, fn) => [fn.call(null, ...res)], args)[0];
 
 // either :: (a -> c) -> (b -> c) -> Either a b -> c
 export const either = curry((f, g, e) => {
