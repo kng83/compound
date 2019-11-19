@@ -1,17 +1,18 @@
-import { match, add, map, prop, identity, strAdd, toUpper, compose, curry, append,toString,tap,either} from './common';
-import  moment from 'moment';
+import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap } from './common';
+import moment from 'moment';
 
 
-class Either {
-  protected _value;
-  static of(x) {
+class Either<T> {
+  protected _value!: T;
+
+  static of<T>(x: T) {
     return new Right(x);
   }
 
-  constructor(x) {
+  constructor(x: T) {
     this._value = x;
   }
-  identify(x) {
+  identify<D>(x: D) {
     return x;
   }
 }
@@ -26,7 +27,7 @@ class Left extends Either {
   }
 }
 
-class Right extends Either {
+class Right<T> extends Either<T> {
 
   map(f) {
     return Either.of(f(this._value));
@@ -80,7 +81,7 @@ console.log('Zoltar Right', zRight);
 
 let zLeft = zoltar({ birthDate: 'balloons!' });
 // Left('Birth date could not be parsed')
-console.log('Zoltar Left ',zLeft);
+console.log('Zoltar Left ', zLeft);
 
 //-------------------with either function
 
