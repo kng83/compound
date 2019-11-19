@@ -1,66 +1,70 @@
 
 // compose :: ((a -> b), (b -> c),  ..., (y -> z)) -> a -> z
-import  { compose, pipe } from './pipe';
+import { compose, pipe } from './pipe';
 // curry :: ((a, b, ...) -> c) -> a -> b -> ... -> c
-import  { curry } from './curry';
+import { curry } from './curry';
 
-export let match = (reg: string) => (val: string) => val.match(reg);
-export let prop = (prop: any) => (val: any) => val[prop];
-export let add = (add: number) => (val: number) => val + add;
-export let toString = (val: any) => val.toString();
-export let toUpper = (val: string) => val.toString().toUpperCase();
-export let strAdd = (addString: string) => (val: string) => addString + val;
-export let append = (str: string) => (val: string) => str + '' + val;
-export const identity = <T>(x: T): T => x;
-export let tap = <T>(val: T): T => { console.log(val); return val; }
+let prop = (prop: any) => (val: any) => val[prop];
+let add = (add: number) => (val: number) => val + add;
+let toString = (val: any) => val.toString();
+let toUpper = (val: string) => val.toString().toUpperCase();
+let strAdd = (addString: string) => (val: string) => addString + val;
+let append = (str: string) => (val: string) => str + '' + val;
+const identity = <T>(x: T): T => x;
+let tap = <T>(val: T): T => { console.log(val); return val; }
+let match = (reg: string) => (val: string) => val.match(reg);
+
+// filter :: (a -> Boolean) -> [a] -> [a]
+const filter = curry((fn, xs) => xs.filter(fn));
 
 
-
-export const map = curry((fn, f) => f.map(fn));
+const map = curry((fn, f) => f.map(fn));
 
 
 // either :: (a -> c) -> (b -> c) -> Either a b -> c
-export const either = curry((f, g, e) => {
+const either = curry((f, g, e) => {
   if (e.isLeft) {
     return f(e.$value);
   }
-
   return g(e.$value);
 });
 
 // inspect :: a -> String
-export const inspection = (x) => {
+const inspection = <T extends { inspect: any }>(x: T): string => {
   if (x && typeof x.inspect === 'function') {
     return x.inspect();
   }
-
-  function inspectFn<T extends { name: any }>(f: T): string {
-    return f.name ? f.name : f.toString();
-  }
-
-  function inspectTerm(t) {
-    switch (typeof t) {
-      case 'string':
-        return `'${t}'`;
-      case 'object': {
-        const ts = Object.keys(t).map(k => [k, inspection(t[k])]);
-        return `{${ts.map(kv => kv.join(': ')).join(', ')}}`;
-      }
-      default:
-        return String(t);
-    }
-  }
-
-  function inspectArgs(args) {
-    return Array.isArray(args) ? `[${args.map(inspection).join(', ')}]` : inspectTerm(args);
-  }
-
   return (typeof x === 'function') ? inspectFn(x) : inspectArgs(x);
 };
 
+function inspectFn<T extends { name: any }>(f: T): string {
+  return f.name ? f.name : f.toString();
+}
+
+
+function inspectTerm(t: string | Object): string {
+  switch (typeof t) {
+    case 'string':
+      return `'${t}'`;
+    case 'object': {
+      const ts = Object.keys(t).map(k => [k, inspection(t[k])]);
+      return `{${ts.map(kv => kv.join(': ')).join(', ')}}`;
+    }
+    default:
+      return String(t);
+  }
+}
+
+//** Inspection of function arguments */
+function inspectArgs<T extends any[]>(args: T): string {
+  return Array.isArray(args) ? `[${args.map(inspection).join(', ')}]` : inspectTerm(args);
+}
+
 // split :: String -> String -> [String]
-//export const split = curry((sep, str:string) => str.split(sep));
-export const split = (sep: string) => (str: string) => str.toString().split(sep);
+// const split = curry((sep, str:string) => str.split(sep));
+const split = (sep: string) => (str: string) => str.toString().split(sep);
 
 // head :: [a] -> a
-export const head = <T extends any[]>(xs: T) => xs[0];
+const head = <T extends any[]>(xs: T) => xs[0];
+
+export { compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection };
