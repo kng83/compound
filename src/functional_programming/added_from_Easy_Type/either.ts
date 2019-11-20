@@ -43,26 +43,20 @@ class Right<T> extends Either<T> {
 const left = <T>(x: T) => new Left(x);
 
 let right1 = Either.of('rain').map(str => `b${str}`);
-console.log(right1);
-// Right('brain')
+console.log(right1); // Right('brain')
 
 let left1 = left('rain').map(str => `It's gonna ${str}, better bring your umbrella!`);
-console.log(left1);
-// Left('rain')
+console.log(left1); // Left('rain')
 
-let right2 = Either.of({ host: 'localhost', port: 80 }).map(prop('host'));
-
-// Right('localhost')
+let right2 = Either.of({ host: 'localhost', port: 80 }).map(prop('host')); // Right('localhost')
 
 let left2 = left('rolls eyes...' as any).map(prop('host'));
-console.log(left2);
-
-// Left('rolls eyes...')
+console.log(left2); // Left('rolls eyes...')
 
 //----------------------------------
 // fortune :: Number -> String
 // tu jest wazna konstrukacja sprawdzenie czy jest dobrze i zwracana jest Right lub left
-//isValid to metoda obiektu zwracanego przez moment
+// isValid to metoda obiektu zwracanego przez moment
 const getAge = curry((dataNow, user) => {
   const birthDate = moment(user.birthDate, 'YYYY-MM-DD');
   return birthDate.isValid()
