@@ -1,4 +1,4 @@
-import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap } from './common';
+import { match, map ,add, prop, identity, either, compose, append, toString, tap , curry} from './common';
 import moment from 'moment';
 
 
@@ -12,13 +12,14 @@ class Either<T> {
   constructor(x: T) {
     this._value = x;
   }
+
   identify<D>(x: D) {
     return x;
   }
 }
 
-class Left extends Either {
-  map(f) {
+class Left<T> extends Either<T> {
+  map<R>(fn: (value: T) => R) {
     return this;
   }
 
@@ -29,8 +30,8 @@ class Left extends Either {
 
 class Right<T> extends Either<T> {
 
-  map(f) {
-    return Either.of(f(this._value));
+  map<R>(fn: (value: T) => R) {
+    return Either.of(fn(this._value));
   }
 
   check() {
@@ -39,7 +40,7 @@ class Right<T> extends Either<T> {
 }
 
 //this function is important !!! for future conversions
-const left = x => new Left(x);
+const left = <T>(x: T) => new Left(x);
 
 let right1 = Either.of('rain').map(str => `b${str}`);
 console.log(right1);
@@ -50,10 +51,10 @@ console.log(left1);
 // Left('rain')
 
 let right2 = Either.of({ host: 'localhost', port: 80 }).map(prop('host'));
-console.log(right2);
+
 // Right('localhost')
 
-let left2 = left('rolls eyes...').map(prop('host'));
+let left2 = left('rolls eyes...' as any).map(prop('host'));
 console.log(left2);
 
 // Left('rolls eyes...')

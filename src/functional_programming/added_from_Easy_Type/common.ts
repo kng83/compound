@@ -6,20 +6,19 @@ import { compose, pipe } from './pipe';
 import { curry } from './curry';
 
 // prop :: String -> Object -> a
-let prop = <T extends object, K extends keyof T>(prop: string) => (val: T[K]) => val[prop];
+const prop = <K extends string>(key: K) => <T extends { [key in K]: any }>(value: T) => value[key];
 
-let add = (add: number) => (val: number) => val + add;
-let toString = (val: any) => val.toString();
-let toUpper = (val: string) => val.toString().toUpperCase();
-let strAdd = (addString: string) => (val: string) => addString + val;
-let append = (str: string) => (val: string) => str + '' + val;
+const add = (add: number) => (val: number) => val + add;
+const toString = (val: any) => val.toString();
+const toUpper = (val: string) => val.toString().toUpperCase();
+const strAdd = (addString: string) => (val: string) => addString + val;
+const append = (str: string) => (val: string) => str + '' + val;
 const identity = <T>(x: T): T => x;
-let tap = <T>(val: T): T => { console.log(val); return val; }
-let match = (reg: string) => (val: string) => val.match(reg);
+const tap = <T>(val: T): T => { console.log(val); return val; }
+const match = (reg: string) => (val: string) => val.match(reg);
 
 // filter :: (a -> Boolean) -> [a] -> [a]
 const filter = curry((fn, xs) => xs.filter(fn));
-
 
 const map = curry((fn, f) => f.map(fn));
 
@@ -70,4 +69,4 @@ const split = (sep: string) => (str: string) => str.toString().split(sep);
 // head :: [a] -> a
 const head = <T extends any[]>(xs: T) => xs[0];
 
-export { compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection };
+export {curry, either, compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection , map};
