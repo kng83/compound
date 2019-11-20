@@ -11,7 +11,7 @@ class IO<T> {
     this.$fnValue = fn;
   }
 
-  map(fn: (value: T) => T): IO<T>{
+  map<D>(fn: (value: T) => D): IO<D>{
    // return new IO(pipe(this.$fnValue, fn));
    return new IO(()=>fn( this.$fnValue()));
 
