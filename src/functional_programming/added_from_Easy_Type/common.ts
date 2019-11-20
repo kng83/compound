@@ -69,4 +69,4 @@ const split = (sep: string) => (str: string) => str.toString().split(sep);
 // head :: [a] -> a
 const head = <T extends any[]>(xs: T) => xs[0];
 
-export {curry, either, compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection , map};
+export { curry, either, compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection, map };
