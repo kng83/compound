@@ -1,30 +1,30 @@
+import {identity,match} from './common';
 
-class Wrapper {
-    private _value;
-    constructor(value) {
+class Wrapper<T> {
+    private _value: T;
+    constructor(value: T) {
         this._value = value;
     }
-    static of(a) {
-        return new Wrapper(a);
+    static of<T>(x: T) {
+        return new Wrapper(x);
     }
-    map(f) {
-        return Wrapper.of(f(this._value));
+
+    map<D>(fn: (value: T) => D): Wrapper<D> {
+        return Wrapper.of(fn(this._value));
     }
-    join() {
+
+    join():Wrapper<T> {
         if (!(this._value instanceof Wrapper)) {
             return this;
         }
         return this._value.join();
     }
+
     toString() {
         return `Wrapper (${this._value})`;
     }
 }
-let match = (reg) => (val: any) => val.match(reg);
-let toUpper = () => (val: string) => val.toUpperCase();
-let identity = (x) => x;
 
 //test
-let some = Wrapper.of("Czesc").map(match(/cz/gi)).join().map(identity);
-let me = some;
-console.log(me.toString());
+let some = Wrapper.of("Czesc i czolem").map(match(/cz/gi)).join().map(identity);
+console.log(some);

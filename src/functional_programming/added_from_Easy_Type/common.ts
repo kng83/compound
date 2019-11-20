@@ -15,7 +15,7 @@ const strAdd = (addString: string) => (val: string) => addString + val;
 const append = (str: string) => (val: string) => str + '' + val;
 const identity = <T>(x: T): T => x;
 const tap = <T>(val: T): T => { console.log(val); return val; }
-const match = (reg: string) => (val: string) => val.match(reg);
+const match = (reg: string | RegExp) => (val: string) => val.match(reg);
 
 // filter :: (a -> Boolean) -> [a] -> [a]
 const filter = curry((fn, xs) => xs.filter(fn));

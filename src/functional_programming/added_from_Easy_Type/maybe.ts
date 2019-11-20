@@ -1,41 +1,37 @@
-import {curry} from './curry';
+import { curry, match, prop, add,toString } from './common';
 
-class Maybe {
-    $value:any;
+class Maybe<T> {
+  $value: any;
 
-    static of(x) {
-      return new Maybe(x);
-    }
-  
-    get isNothing() {
-      return this.$value === null || this.$value === undefined;
-    }
-  
-    constructor(x) {
-      this.$value = x;
-    }
-  
-    map(fn) {
-      return this.isNothing ? this : Maybe.of(fn(this.$value));
-    }
-  
-    inspect() {
-      return this.isNothing ? 'Nothing' : `Just(${(this.$value)})`;
-    }
+  static of<T>(x: T) {
+    return new Maybe(x);
   }
 
-  function add3(a:number,b:number,c:number){
-      return a+b+c;
+  get isNothing() {
+    return this.$value === null || this.$value === undefined;
   }
 
- let one = add3.bind({},3).bind({},5);
+  constructor(x: T) {
+    this.$value = x;
+  }
+
+  map<D>(fn: (value: T) => D): Maybe<D> {
+    if (this.isNothing) {
+      return this as any as Maybe<never>;
+    } else {
+      return Maybe.of(fn(this.$value));
+    }
+    // return this.isNothing ? this : Maybe.of(fn(this.$value));
+  }
+
+  inspect() {
+    return this.isNothing ? 'Nothing' : `Just(${(this.$value)})`;
+  }
+}
 
 
-
-  let match = (reg) => (val:any)=> val.match(reg);
-  let prop = (prop:any) =>(val) => val[prop];
-  let add = (add:any) => (val:any) => val + add;
-
-  console.log(Maybe.of('Malkovich Malkovich').map(match(/a/ig)));
-  console.log(Maybe.of(null).map(match(/a/ig))); //Nothing
-  console.log(Maybe.of({ name: 'Dinah', age: 14 }).map(prop('age')).map(add(10))); //JUST(24)
+let checkRegIg = Maybe.of('Malkovich Malkovich').map(match(/al/ig));
+console.log(checkRegIg);
+// console.log(Maybe.of(null).map(match(/a/ig))); //Nothing
+let checkJust24 = Maybe.of({ name: 'Dinah', age: 14 }).map(prop('age')).map(add(10)).map(toString);
+console.log(checkJust24,'what answer'); //JUST(24)
