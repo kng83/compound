@@ -1,11 +1,11 @@
-import { match, add, map, prop, identity, strAdd, toUpper, compose, curry, append, toString, tap, either, inspection, head, split } from './common';
+import { match, add, map, prop, identity,pipe, strAdd, tap, toUpper, compose, curry, append, toString,  either, inspection, head, split } from './common';
 import util from 'util';
 import fs from 'fs';
 
 class Task<T> {
-  public fork: (reject: any, resolve: any) => Task<T>;
+  public fork: <N, P>(reject: N, resolve: P) => Task<T>;
 
-  constructor(fork:(reject:any,resolve:any)=>Task<T>) {
+  constructor(fork:(reject: any, resolve: any) => Task<T>) {
     this.fork = fork;
   }
 
@@ -13,28 +13,28 @@ class Task<T> {
     return 'Task(?)';
   }
 
-  static rejected(x) {
-    return new Task((reject, _) => reject(x));
+  static rejected<N>(x: N) {
+    return new Task((reject: (x: N) => Task<N>, _?: any) => reject(x));
   }
 
   // ----- Pointed (Task a)
-  static of<D>(x:D) {
+  static of<D>(x: D) {
     return new Task((_, resolve) => resolve(x));
   }
 
   // ----- Functor (Task a)
-  map(fn) {
-    return new Task((reject, resolve) => this.fork(reject, compose(resolve, fn)));
+  map<R>(fn:(value:T)=>R) {
+    return new Task((reject, resolve) => this.fork(reject, pipe(fn,resolve)));
   }
 
   // ----- Applicative (Task a)
-  ap(f) {
-    return this.chain(fn => f.map(fn));
+  ap<R>(fn:any) {
+    return this.chain((fn:any) => fn.map(fn));
   }
 
   // ----- Monad (Task a)
-  chain(fn) {
-    return new Task((reject, resolve) => this.fork(reject, x => fn(x).fork(reject, resolve)));
+  chain(fn:any) {
+    return new Task((reject, resolve) => this.fork(reject, (x:any) => fn(x).fork(reject, resolve)));
   }
 
   join() {
@@ -42,9 +42,10 @@ class Task<T> {
   }
 }
 
-const readFile = filename => new Task((reject, result) => {//
-  fs.readFile(filename, (err, data) => (err ? reject(err) : result(data)));
+const readFile = (filename:string) => new Task((reject:any, result:any) => {
+  return fs.readFile(filename, (err, data) => (err ? reject(err) : result(data))) as any as any;
 });
 
   //to nie wiem dlaczego nie dziala
-  //readFile('./webpack.config.ts').map(split('\n')).map(head).fork((err,val)=>console.log(err,val));
+ let readf =  readFile('./readme.md').map(split('\n')).map(head).fork((err:any,val:any)=>console.log(err,val));
+

@@ -32,15 +32,15 @@ const either = curry((f, g, e) => {
 });
 
 // inspect :: a -> String
-const inspection = <T extends { inspect: any }>(x: T): string => {
+const inspection = <T extends { inspect: unknown },>(x: T): any => {
   if (x && typeof x.inspect === 'function') {
     return x.inspect();
   }
-  return (typeof x === 'function') ? inspectFn(x) : inspectArgs(x);
+  return (typeof x === 'function') ? inspectFn(x) : inspectArgs(x as any); //any
 };
 
-function inspectFn<T extends { name: any }>(f: T): string {
-  return f.name ? f.name : f.toString();
+function inspectFn<T extends { name: any }>(fn: T): string {
+  return fn.name ? fn.name : fn.toString();
 }
 
 
@@ -49,7 +49,7 @@ function inspectTerm(t: string | Object): string {
     case 'string':
       return `'${t}'`;
     case 'object': {
-      const ts = Object.keys(t).map(k => [k, inspection(t[k])]);
+      const ts = Object.keys(t).map(k => [k, inspection((t as any)[k])]); //any
       return `{${ts.map(kv => kv.join(': ')).join(', ')}}`;
     }
     default:
@@ -69,4 +69,8 @@ const split = (sep: string) => (str: string) => str.toString().split(sep);
 // head :: [a] -> a
 const head = <T extends any[]>(xs: T) => xs[0];
 
-export { curry, either, compose, pipe, head, prop, add, toString, toUpper, strAdd, append, identity, tap, match, inspection, map };
+export { curry, either, compose, pipe,
+         head, prop, add, toString, toUpper,
+         strAdd, append, identity, tap, match,
+         inspection, map ,split ,filter
+       };

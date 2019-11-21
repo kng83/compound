@@ -1,15 +1,20 @@
 //Option
-class Maybe {
-    static just(a) {
-        return new Just(a);
+class Maybe<T> {
+    static just<D>(x: D) {
+        return new Just(x);
     }
     static nothing() {
         return new Nothing();
     }
-    static fromNullable(a) {
-        return a !== null ? Maybe.just(a) : Maybe.nothing();
+    static fromNullable<D>(x: D) {
+        if (x !== null) {
+            return Maybe.just(x);
+        } else {
+            return Maybe.nothing();
+        }
+
     }
-    static of(a) {
+    static of<D>(a: D) {
         return Maybe.just(a);
     }
     get isNothing() {
@@ -20,9 +25,9 @@ class Maybe {
     }
 };
 //Some
-class Just extends Maybe {
-    private _value;
-    constructor(value) {
+class Just<T> extends Maybe<T> {
+    private _value: T;
+    constructor(value: T) {
         super();
         this._value = value;
     }
@@ -31,20 +36,20 @@ class Just extends Maybe {
         return this._value;
     }
 
-    map(f) {
-        return Maybe.fromNullable(f(this._value));
+    map<R>(fn: (value: T) => R) {
+        return Maybe.fromNullable(fn(this._value));
     }
 
-    chain(f) {
-        return f(this._value);
+    chain(fn: (value: T) => Just<T>) {
+        return fn(this._value);
     }
 
     getOrElse() {
         return this._value;
     }
 
-    filter(f?) {
-        exports.Maybe.fromNullable(f(this._value) ? this._value : null);
+    filter(fn: (value: T) => boolean) {
+        Maybe.fromNullable(fn(this._value) ? this._value : null);
     }
 
     get isJust() {
@@ -56,18 +61,19 @@ class Just extends Maybe {
     }
 };
 //None
-class Nothing extends Maybe {
-    private _value;
-    map(f) {
+class Nothing<T> extends Maybe<T> {
+    private _value!: T;
+
+    map<R>(fn: (value: T) => R): Nothing<T> {
         return this;
     }
-    chain(f) {
+    chain<D>(fn: (value: D) => D) {
         return this;
     }
     get value() {
         throw new TypeError("Nie można pobrać wartości obiektu typu Nothing.");
     }
-    getOrElse(other) {
+    getOrElse<D>(other: D): D {
         return other;
     }
     filter() {
@@ -81,9 +87,17 @@ class Nothing extends Maybe {
     }
 };
 
-let match2 = (reg) => (val: any) => val.match(reg);
+let match2 = (reg: string | RegExp) => (val: string) => {
+    //** Poniewaz tu moze byc null to pozbywamy go sie */
+    let ans = val.match(reg);
+    if (!ans) {
+        return [] as RegExpMatchArray;
+    } else {
+        return ans;
+    }
+};
 let toUpper2 = () => (val: string) => val.toUpperCase();
-let identity2 = (x) => x;
+let identity2 = <T>(x: T) => x;
 
 //test
 let some2 = Maybe.of("Czesc").map(match2(/cze/gi));
