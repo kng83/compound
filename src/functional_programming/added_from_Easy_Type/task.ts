@@ -1,6 +1,7 @@
 import { match, add, map, prop, identity,pipe, strAdd, tap, toUpper, compose, curry, append, toString,  either, inspection, head, split } from './common';
 import util from 'util';
 import fs from 'fs';
+import path from 'path';
 
 class Task<T> {
   public fork: <N, P>(reject: N, resolve: P) => Task<T>;
@@ -43,9 +44,20 @@ class Task<T> {
 }
 
 const readFile = (filename:string) => new Task((reject:any, result:any) => {
-  return fs.readFile(filename, (err, data) => (err ? reject(err) : result(data))) as any as any;
+ let pathToReadme = path.join(__dirname,'../../../',filename);
+
+  fs.readFile(pathToReadme, (err, data) => {
+    console.log('this is incomming');
+    if(err){
+      console.log('this is err',err);
+      return reject(err);
+    }else {
+    //  console.log('this is data',data.toString('ascii'));
+      return result(data.toString('ascii'));
+    }
+  }) as any as any;
 });
 
   //to nie wiem dlaczego nie dziala
- let readf =  readFile('./readme.md').map(split('\n')).map(head).fork((err:any,val:any)=>console.log(err,val));
+ readFile('./readme.md').map(split('\n')).map(head).fork((err:any,val:any)=>console.log(err,val));
 
