@@ -55,21 +55,21 @@ class Task<T> {
   }
 }
 
-const readFile = (filename:string) => new Task((reject:any, result:any) => {
-  let pathToReadme = path.join(__dirname,'../../../',filename);
- // console.log(reject.toString());
-  fs.readFile(pathToReadme, (err, data) => {
-  //  console.log('this is incoming');
-    if(err){
-   //   console.log('this is err',err);
-      return reject(err);
-    }else {
-    // console.log('this is data',data.toString('ascii'),result,'----');
+// const readFile = (filename:string) => new Task((reject:any, result:any) => {
+//   let pathToReadme = path.join(__dirname,'../../../',filename);
+//  // console.log(reject.toString());
+//   fs.readFile(pathToReadme, (err, data) => {
+//   //  console.log('this is incoming');
+//     if(err){
+//    //   console.log('this is err',err);
+//       return reject(err);
+//     }else {
+//     // console.log('this is data',data.toString('ascii'),result,'----');
       
-       return result(data.toString('ascii'));
-    }
-  }) as any as any;
-});
+//        return result(data.toString('ascii'));
+//     }
+//   }) as any as any;
+// });
 
-  //to nie wiem dlaczego nie dziala
- readFile('./readme.md').fork((err:any,value:any)=>console.log(err,value,'###this is OUTPUT ####'));
+//   //to nie wiem dlaczego nie dziala
+//  readFile('./readme.md').fork((err:any,value:any)=>console.log(err,value,'###this is OUTPUT ####'));

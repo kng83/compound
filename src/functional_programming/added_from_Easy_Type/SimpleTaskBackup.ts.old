@@ -1,0 +1,99 @@
+class SimpleTask<T> {
+  constructor(private fork: (resolve: (value?: T) => void, reject: (reason?: any) => void) => void) { }
+
+  // ----- Functor (SimpleTask a)
+  map(fn: any) {
+    return new SimpleTask((reject: any, resolve: any) => {
+      return this.fork(reject, () => fn(resolve))
+    });
+  }
+
+  then(callback: (value: T) => void) {
+   this.fork(
+      (err: any) => err,
+      (value: T) => callback(value));
+
+  }
+
+  // ----- Applicative (SimpleTask a)
+  ap(f: any) {
+    return this.chain((fn: any) => f.map(fn));
+  }
+
+  // ----- Monad (SimpleTask a)
+  chain(fn: any) {
+    return new SimpleTask((reject: any, resolve: any) =>
+      this.fork(reject, (x: any) => fn(x).fork(reject, resolve)));
+  }
+
+  join() {
+    return this.chain((x: any) => x);
+  }
+}
+
+let someSimple = { bobo: 3, name: 'ssss' };
+
+const readSome = <T>(value: T) => new SimpleTask<T>((resolve, reject) => {
+  resolve(value);                    
+})
+
+readSome(someSimple).then((value) => {
+  console.log(value);
+});
+
+// let meto = new Promise((resolve, reject) => {
+//   resolve(10);
+//   reject(4);
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+class SimpleTask<T,C> {
+
+    constructor(private fork:(resolve:T,reject:C)=>void) {}
+    
+    // ----- Functor (SimpleTask a)
+    map(fn:any) {
+      return new SimpleTask((reject:any, resolve:any) => {
+        return this.fork(reject, ()=>fn(resolve))
+      });
+    }
+    then(callback:(value:any)=>void) {
+      this.fork((err:any)=>err, (value:any) => callback(value));
+  
+    }
+  
+    // ----- Applicative (SimpleTask a)
+    ap(f:any) {
+      return this.chain((fn:any) => f.map(fn));
+    }
+  
+    // ----- Monad (SimpleTask a)
+    chain(fn:any) {
+      return new SimpleTask((reject:any, resolve:any) =>
+       this.fork(reject, (x:any) => fn(x).fork(reject, resolve)));
+    }
+  
+    join() {
+      return this.chain((x:any)=>x);
+    }
+  }
+  
+  let someSimple = {bobo:3,name:'ssss'};
+  
+  const readSome = (value:any) => new SimpleTask((reject:any,resolve:any)=>{
+    resolve(value);
+  })
+  readSome(someSimple).then((value)=>{
+    console.log(value);
+  });
