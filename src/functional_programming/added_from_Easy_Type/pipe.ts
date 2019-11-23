@@ -66,3 +66,7 @@ export let pipe:Pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
  */
 type Compose = <F extends Unary[]>(...funcs: UnariesToComposed<F>) => (i: ParameterUnary<F[PrevN<F["length"]>]>) => ReturnType<F[0]>
 export let compose:Compose = (...fns) => (x) => fns.reduceRight((v, f) => f(v), x);
+
+
+//** This is base example of pipe */
+//    let pipe = (fn1:any,fn2:any) => (...arg:any[]) => fn2(fn1(...arg));
