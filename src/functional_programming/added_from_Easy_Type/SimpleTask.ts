@@ -8,7 +8,7 @@ class SimpleTask<T> {
   constructor(private fork: Fork<T>) { }
 
   // ----- Functor (SimpleTask a)
-  map <R>(fn:((value?: T) => R)) {
+  map <R extends any>(fn:((value?: T) => R)) {
     return new SimpleTask<R>((resolve, reject) => {
       this.fork(pipe(fn,resolve),reject)
     });
@@ -51,7 +51,7 @@ const readSome = <T>(value: T) => new SimpleTask<T>((resolve, reject) => {
   resolve(value);
 })
 
-readSome(someSimple).map((value) => value.name).then(value=>console.log(value)).catch(console.log);
+readSome(someSimple).map((value) => value? .name).then(value=>console.log(value)).catch(console.log);
 
 
 //** Here is may promise example read from file  */
