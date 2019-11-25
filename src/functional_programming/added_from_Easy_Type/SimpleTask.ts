@@ -90,9 +90,7 @@ class SimpleTask<T> {
   }
 
   then(resolve) {
-    this.fork(
-      value=> resolve(value),
-      err => err);
+    this.fork(value=> resolve(value), err => err);
     return this;
   }
   
