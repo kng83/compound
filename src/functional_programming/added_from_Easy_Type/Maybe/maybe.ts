@@ -1,4 +1,4 @@
-import { curry, match, prop, add,toString } from './common';
+import { curry, match, prop, add,toString } from '../Functions/common';
 
 class Maybe<T> {
   $value: any;

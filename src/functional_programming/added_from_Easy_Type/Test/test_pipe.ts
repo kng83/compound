@@ -1,5 +1,5 @@
-import {pipe} from './pipe';
-import {curry} from './curry';
+import {pipe} from '../Functions/pipe';
+import {curry} from '../Functions/curry';
 
 namespace TestPipe_1{
 

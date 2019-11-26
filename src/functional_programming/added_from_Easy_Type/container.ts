@@ -1,4 +1,4 @@
-import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap } from './common';
+import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap } from './Functions/common';
 
 class Container<T> {
   private $value: T;

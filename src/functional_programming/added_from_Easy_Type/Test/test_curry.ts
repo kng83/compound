@@ -1,4 +1,4 @@
-import { curry } from './curry';
+import { curry } from '../Functions/curry';
 import R from 'ramda';
 
 namespace TestCurry {

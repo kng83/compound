@@ -1,4 +1,4 @@
-import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap, pipe, inspection } from './common';
+import { match, add, prop, identity, strAdd, toUpper, compose, append, toString, tap, pipe, inspection } from './Functions/common';
 
 class IO<T> {
   private $fnValue: () => T;
@@ -17,12 +17,12 @@ class IO<T> {
 
   }
 
-  // inspection() {
-  //   return `IO(${inspection(this.$fnValue)})`;
-  // }
   get value() {
     return this.$fnValue;
   }
+  // inspection() {
+  //   return `IO(${inspection(this.$fnValue)})`;
+  // }
 }
 
 //example

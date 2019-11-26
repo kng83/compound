@@ -1,4 +1,4 @@
-import { identity,pipe,head, split,compose } from './common';
+import { identity,pipe,head, split,compose } from '../Functions/common';
 import util from 'util';
 import fs from 'fs';
 import path from 'path';

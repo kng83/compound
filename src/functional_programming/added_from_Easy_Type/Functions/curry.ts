@@ -42,7 +42,6 @@ function n_curry(fn: any) {
     }
 }
 
-
 export function curry<T extends any[], R>(fn: (...args: T) => R): VariadicCurry<T, R> {
     return n_curry(fn);
 }

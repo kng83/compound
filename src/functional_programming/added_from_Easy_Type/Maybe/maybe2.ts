@@ -1,4 +1,4 @@
-import {identity,match} from './common';
+import {identity,match} from '../Functions/common';
 
 class Wrapper<T> {
     private _value: T;

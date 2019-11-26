@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { split, toUpper } from './common';
+import { split, toUpper } from '../Functions/common';
 
 type Fork<T> = (resolve: (value: T) => void, reject: (reason: any) => void) => void;
 

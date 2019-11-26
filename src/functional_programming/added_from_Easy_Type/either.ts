@@ -1,4 +1,4 @@
-import { match, map ,add, prop, identity, either, compose, append, toString, tap , curry} from './common';
+import { match, map ,add, prop, identity, either, compose, append, toString, tap , curry} from './Functions/common';
 import moment from 'moment';
 
 
