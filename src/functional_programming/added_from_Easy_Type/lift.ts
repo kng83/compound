@@ -1,13 +1,13 @@
 
 
 //**Making an applicative functor */
-
-class ApplicativeArray<T extends (...args: any) => any> extends Array<T>{
+//** tutaj trick bierzemy parametry od naszej funkcji wsadowej i typem parameters zwracamy typ z tupli z indeksem 1 */
+class ApplicativeArray<T extends (arg: any) => any,B extends Parameters<T>[0]> extends Array<T>{
     private constructor(...args: T[]) {
         super(...args);
     }
- 
-    static of<T>(...items: T[]): ApplicativeArray<T> {
+
+    static create<Z extends (arg: any) => any>(...items: Z[]): ApplicativeArray<Z,Parameters<Z>[0]> {
         let ret = Object.create(ApplicativeArray.prototype);
         ret.push(...items);
         return ret;
@@ -19,18 +19,17 @@ class ApplicativeArray<T extends (...args: any) => any> extends Array<T>{
     tail() {
         return this[this.length - 1];
     }
-    ap<R extends Parameters<T>, G>(xs: R[]) {
-        return this.reduce((acc: G[], currentFn: T) => acc.concat(xs.map(currentFn)), [])
+    ap<R extends ReturnType<T>>(xs: B[]) {
+        return this.reduce((acc: R[], currentFn: T) => acc.concat(xs.map(currentFn)), [])
     }
 
 };
 
-let appArray = ApplicativeArray.of<(a: number) => number>(a => 2 + a);
+let appArray = ApplicativeArray.create<(a: number) => number>(a => 2 + a);
 let someArr = appArray.ap([3, 4, 4]);
 console.log(someArr);
 
-let next = ApplicativeArray.of(1, 2, 3);
-;
+
 
 // let someA = [1,2,3].concat([1]);
 // console.log(someA);
