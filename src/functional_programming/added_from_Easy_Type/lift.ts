@@ -2,10 +2,7 @@
 
 //**Making an applicative functor */
 
-class ApplicativeArray<T extends (...args:any[])=>any> extends Array<T>{
-    private constructor(...args:T[]){
-        super(...args);
-    }
+class ApplicativeArray<T> extends Array<T>{
 
     static of<T>(...items: T[]): ApplicativeArray<T> {
         let ret = Object.create(ApplicativeArray.prototype);
@@ -19,15 +16,16 @@ class ApplicativeArray<T extends (...args:any[])=>any> extends Array<T>{
     tail() {
         return this[this.length - 1];
     }
-    ap<R extends any , G extends ReturnType<T>>(xs: R[]) {
-        return this.reduce((acc:G[], currentFn:T) => acc.concat(xs.map(currentFn as any)), [])
+    // Apply elements to functional array
+    ap< G >(xs: G[]) {
+        return this.reduce((acc:G[], currentFn:T) => acc.concat(xs.map(currentFn)), []) as {(arg:G):T}[]
     }
 
 };
 
 let appArray = ApplicativeArray.of<(a: number) => number>(a => 2 + a);
-let someArr = appArray.ap([8,4,4]);
-console.log(someArr);
+let someArr = appArray.ap(['8',4,4]);
+console.log(someArr);f
 
 let next = ApplicativeArray.of(1,2,3);
 ;
